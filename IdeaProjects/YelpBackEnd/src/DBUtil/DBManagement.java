@@ -21,7 +21,7 @@ public class DBManagement {
         try {
             Class.forName(DRIVER);
             conn = DriverManager.getConnection(URL, USER, PASS);
-            System.out.println("database connect success");
+//            System.out.println("database connect success");
         } catch (Exception e) {
             e.printStackTrace();
         }

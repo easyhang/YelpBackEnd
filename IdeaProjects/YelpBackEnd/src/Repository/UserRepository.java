@@ -47,8 +47,8 @@ public class UserRepository {
 
     public boolean findbyUsername(String username) {
         try {
-            PreparedStatement preparedStatement = conn.prepareStatement("select from users" +
-                    " where usrename = ?");
+            PreparedStatement preparedStatement = conn.prepareStatement("select * from users" +
+                    " where username = ?");
             preparedStatement.setString(1, username);
             ResultSet resultSet = preparedStatement.executeQuery();
             if (resultSet != null) {
@@ -66,8 +66,8 @@ public class UserRepository {
 
     public boolean findbyLogin(String username, String password) {
         try {
-            PreparedStatement preparedStatement = conn.prepareStatement("select from users" +
-                    " where usrename = ?");
+            PreparedStatement preparedStatement = conn.prepareStatement("select * from users" +
+                    " where username = ?");
             preparedStatement.setString(1, username);
             ResultSet resultSet = preparedStatement.executeQuery();
             if (resultSet != null) {
