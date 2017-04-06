@@ -12,7 +12,7 @@ import java.sql.Statement;
 public class DBManagement {
     static Connection conn = null;
     static Statement stmt = null;
-    static String DRIVER = "com.mysql.jdbc.driver";
+    static String DRIVER = "com.mysql.jdbc.Driver";
     static String USER = "root";
     static String PASS = "111111";
     static String URL = "jdbc:mysql://localhost:3306/yelp";
