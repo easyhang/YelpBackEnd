@@ -51,8 +51,8 @@
       <file leaf-file-name="UI.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/UI.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1512">
-              <caret line="60" column="30" lean-forward="false" selection-start-line="60" selection-start-column="30" selection-end-line="60" selection-end-column="30" />
+            <state relative-caret-position="303">
+              <caret line="120" column="39" lean-forward="false" selection-start-line="120" selection-start-column="39" selection-end-line="120" selection-end-column="39" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -63,29 +63,33 @@
       <file leaf-file-name="UserRepository.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Repository/UserRepository.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="486">
-              <caret line="76" column="21" lean-forward="true" selection-start-line="76" selection-start-column="21" selection-end-line="76" selection-end-column="21" />
+            <state relative-caret-position="388">
+              <caret line="56" column="32" lean-forward="true" selection-start-line="56" selection-start-column="32" selection-end-line="56" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <marker date="1491522204789" expanded="true" signature="754:856" ph="insert into users... " />
-                <marker date="1491522204789" expanded="true" signature="754:882" ph="insert into users... " />
-                <marker date="1491522204789" expanded="true" signature="1662:1725" ph="select from users... " />
-                <marker date="1491522204789" expanded="true" signature="2332:2351" ph="select from users... " />
-                <marker date="1491522204789" expanded="true" signature="2332:2395" ph="select from users... " />
-                <marker date="1491522204789" expanded="true" signature="2990:3009" ph="select * fro... users" />
+                <marker date="1491579210049" expanded="true" signature="754:856" ph="insert into users... " />
+                <marker date="1491579210049" expanded="true" signature="754:882" ph="insert into users... " />
+                <marker date="1491579210049" expanded="true" signature="1708:1771" ph="select from users... " />
+                <marker date="1491579210049" expanded="true" signature="2379:2398" ph="select from users... " />
+                <marker date="1491579210049" expanded="true" signature="2379:2442" ph="select from users... " />
+                <marker date="1491579210049" expanded="true" signature="3046:3065" ph="select * fro... users" />
+                <marker date="1491579210049" expanded="true" signature="3707:3748" ph="delete from " />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DBManagement.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/DBUtil/DBManagement.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="563">
-              <caret line="24" column="31" lean-forward="true" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="31" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+      <file leaf-file-name="yelp.users" pinned="false" current-in-tab="false">
+        <entry file="dbDummy://dbtable:/603bee9c/d3881873-bed5-4844-808c-3686fb33ba08/yelp.users">
+          <provider editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
             </state>
           </provider>
         </entry>
@@ -110,8 +114,8 @@
         <option value="$PROJECT_DIR$/src/Model/User.java" />
         <option value="$PROJECT_DIR$/src/Controller.java" />
         <option value="$PROJECT_DIR$/src/DBManagement.java" />
-        <option value="$PROJECT_DIR$/src/UI.java" />
         <option value="$PROJECT_DIR$/src/DBUtil/DBManagement.java" />
+        <option value="$PROJECT_DIR$/src/UI.java" />
         <option value="$PROJECT_DIR$/src/Repository/UserRepository.java" />
       </list>
     </option>
@@ -662,12 +666,13 @@
       <workItem from="1491318291549" duration="179000" />
       <workItem from="1491403976694" duration="639000" />
       <workItem from="1491447875741" duration="2586000" />
-      <workItem from="1491520753278" duration="1637000" />
+      <workItem from="1491520753278" duration="2720000" />
+      <workItem from="1491573813448" duration="3711000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12476000" />
+    <option name="totallyTimeSpent" value="17270000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="99" y="39" width="2061" height="1401" extended-state="6" />
@@ -682,20 +687,20 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32964426" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32964426" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33280632" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20135856" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19456574" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19456574" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -731,16 +736,54 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Repository/UserRepository.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1836">
+          <caret line="76" column="21" lean-forward="true" selection-start-line="76" selection-start-column="21" selection-end-line="76" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1491579210049" expanded="true" signature="754:856" ph="insert into users... " />
+            <marker date="1491579210049" expanded="true" signature="754:882" ph="insert into users... " />
+            <marker date="1491579210049" expanded="true" signature="1708:1771" ph="select from users... " />
+            <marker date="1491579210049" expanded="true" signature="2379:2398" ph="select from users... " />
+            <marker date="1491579210049" expanded="true" signature="2379:2442" ph="select from users... " />
+            <marker date="1491579210049" expanded="true" signature="3046:3065" ph="select * fro... users" />
+            <marker date="1491579210049" expanded="true" signature="3707:3748" ph="delete from " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DBUtil/DBManagement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="567">
+          <caret line="24" column="31" lean-forward="true" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/UI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Repository/UserRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="486">
           <caret line="26" column="59" lean-forward="false" selection-start-line="26" selection-start-column="22" selection-end-line="27" selection-end-column="68" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1491522204789" expanded="true" signature="754:856" ph="insert into users... " />
-            <marker date="1491522204789" expanded="true" signature="754:882" ph="insert into users... " />
-            <marker date="1491522204789" expanded="true" signature="1662:1725" ph="select from users... " />
-            <marker date="1491522204789" expanded="true" signature="2332:2351" ph="select from users... " />
-            <marker date="1491522204789" expanded="true" signature="2332:2395" ph="select from users... " />
-            <marker date="1491522204789" expanded="true" signature="2990:3009" ph="select * fro... users" />
+            <marker date="1491579210049" expanded="true" signature="754:856" ph="insert into users... " />
+            <marker date="1491579210049" expanded="true" signature="754:882" ph="insert into users... " />
+            <marker date="1491579210049" expanded="true" signature="1708:1771" ph="select from users... " />
+            <marker date="1491579210049" expanded="true" signature="2379:2398" ph="select from users... " />
+            <marker date="1491579210049" expanded="true" signature="2379:2442" ph="select from users... " />
+            <marker date="1491579210049" expanded="true" signature="3046:3065" ph="select * fro... users" />
+            <marker date="1491579210049" expanded="true" signature="3707:3748" ph="delete from " />
           </folding>
         </state>
       </provider>
@@ -771,12 +814,13 @@
           <caret line="98" column="32" lean-forward="false" selection-start-line="98" selection-start-column="32" selection-end-line="98" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1491522204789" expanded="true" signature="754:856" ph="insert into users... " />
-            <marker date="1491522204789" expanded="true" signature="754:882" ph="insert into users... " />
-            <marker date="1491522204789" expanded="true" signature="1662:1725" ph="select from users... " />
-            <marker date="1491522204789" expanded="true" signature="2332:2351" ph="select from users... " />
-            <marker date="1491522204789" expanded="true" signature="2332:2395" ph="select from users... " />
-            <marker date="1491522204789" expanded="true" signature="2990:3009" ph="select * fro... users" />
+            <marker date="1491579210049" expanded="true" signature="754:856" ph="insert into users... " />
+            <marker date="1491579210049" expanded="true" signature="754:882" ph="insert into users... " />
+            <marker date="1491579210049" expanded="true" signature="1708:1771" ph="select from users... " />
+            <marker date="1491579210049" expanded="true" signature="2379:2398" ph="select from users... " />
+            <marker date="1491579210049" expanded="true" signature="2379:2442" ph="select from users... " />
+            <marker date="1491579210049" expanded="true" signature="3046:3065" ph="select * fro... users" />
+            <marker date="1491579210049" expanded="true" signature="3707:3748" ph="delete from " />
           </folding>
         </state>
       </provider>
@@ -797,12 +841,13 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1491522204789" expanded="true" signature="754:856" ph="insert into users... " />
-            <marker date="1491522204789" expanded="true" signature="754:882" ph="insert into users... " />
-            <marker date="1491522204789" expanded="true" signature="1662:1725" ph="select from users... " />
-            <marker date="1491522204789" expanded="true" signature="2332:2351" ph="select from users... " />
-            <marker date="1491522204789" expanded="true" signature="2332:2395" ph="select from users... " />
-            <marker date="1491522204789" expanded="true" signature="2990:3009" ph="select * fro... users" />
+            <marker date="1491579210049" expanded="true" signature="754:856" ph="insert into users... " />
+            <marker date="1491579210049" expanded="true" signature="754:882" ph="insert into users... " />
+            <marker date="1491579210049" expanded="true" signature="1708:1771" ph="select from users... " />
+            <marker date="1491579210049" expanded="true" signature="2379:2398" ph="select from users... " />
+            <marker date="1491579210049" expanded="true" signature="2379:2442" ph="select from users... " />
+            <marker date="1491579210049" expanded="true" signature="3046:3065" ph="select * fro... users" />
+            <marker date="1491579210049" expanded="true" signature="3707:3748" ph="delete from " />
           </folding>
         </state>
       </provider>
@@ -823,12 +868,13 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1491522204789" expanded="true" signature="754:856" ph="insert into users... " />
-            <marker date="1491522204789" expanded="true" signature="754:882" ph="insert into users... " />
-            <marker date="1491522204789" expanded="true" signature="1662:1725" ph="select from users... " />
-            <marker date="1491522204789" expanded="true" signature="2332:2351" ph="select from users... " />
-            <marker date="1491522204789" expanded="true" signature="2332:2395" ph="select from users... " />
-            <marker date="1491522204789" expanded="true" signature="2990:3009" ph="select * fro... users" />
+            <marker date="1491579210049" expanded="true" signature="754:856" ph="insert into users... " />
+            <marker date="1491579210049" expanded="true" signature="754:882" ph="insert into users... " />
+            <marker date="1491579210049" expanded="true" signature="1708:1771" ph="select from users... " />
+            <marker date="1491579210049" expanded="true" signature="2379:2398" ph="select from users... " />
+            <marker date="1491579210049" expanded="true" signature="2379:2442" ph="select from users... " />
+            <marker date="1491579210049" expanded="true" signature="3046:3065" ph="select * fro... users" />
+            <marker date="1491579210049" expanded="true" signature="3707:3748" ph="delete from " />
           </folding>
         </state>
       </provider>
@@ -862,10 +908,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Model/Users.java" />
     <entry file="file://$PROJECT_DIR$/src/Controller.java" />
+    <entry file="file://$PROJECT_DIR$/src/DBUtil/DBManagement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="563">
+          <caret line="24" column="31" lean-forward="false" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Model/User.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="401">
+        <state relative-caret-position="414">
           <caret line="17" column="33" lean-forward="true" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
+          <folding>
+            <element signature="e#323#324#0" expanded="false" />
+            <element signature="e#363#364#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -873,6 +933,7 @@
       <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
@@ -881,20 +942,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/DBUtil/DBManagement.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="563">
-          <caret line="24" column="31" lean-forward="true" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/UI.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1512">
-          <caret line="60" column="30" lean-forward="false" selection-start-line="60" selection-start-column="30" selection-end-line="60" selection-end-column="30" />
+        <state relative-caret-position="303">
+          <caret line="120" column="39" lean-forward="false" selection-start-line="120" selection-start-column="39" selection-end-line="120" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -903,16 +954,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Repository/UserRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="76" column="21" lean-forward="true" selection-start-line="76" selection-start-column="21" selection-end-line="76" selection-end-column="21" />
+        <state relative-caret-position="388">
+          <caret line="56" column="32" lean-forward="true" selection-start-line="56" selection-start-column="32" selection-end-line="56" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1491522204789" expanded="true" signature="754:856" ph="insert into users... " />
-            <marker date="1491522204789" expanded="true" signature="754:882" ph="insert into users... " />
-            <marker date="1491522204789" expanded="true" signature="1662:1725" ph="select from users... " />
-            <marker date="1491522204789" expanded="true" signature="2332:2351" ph="select from users... " />
-            <marker date="1491522204789" expanded="true" signature="2332:2395" ph="select from users... " />
-            <marker date="1491522204789" expanded="true" signature="2990:3009" ph="select * fro... users" />
+            <marker date="1491579210049" expanded="true" signature="754:856" ph="insert into users... " />
+            <marker date="1491579210049" expanded="true" signature="754:882" ph="insert into users... " />
+            <marker date="1491579210049" expanded="true" signature="1708:1771" ph="select from users... " />
+            <marker date="1491579210049" expanded="true" signature="2379:2398" ph="select from users... " />
+            <marker date="1491579210049" expanded="true" signature="2379:2442" ph="select from users... " />
+            <marker date="1491579210049" expanded="true" signature="3046:3065" ph="select * fro... users" />
+            <marker date="1491579210049" expanded="true" signature="3707:3748" ph="delete from " />
           </folding>
         </state>
       </provider>

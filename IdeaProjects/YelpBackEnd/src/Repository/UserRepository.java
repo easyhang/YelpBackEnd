@@ -47,16 +47,18 @@ public class UserRepository {
 
     public boolean findbyUsername(String username) {
         try {
+            println("Username: " + username);
             PreparedStatement preparedStatement = conn.prepareStatement("select * from users" +
                     " where username = ?");
             preparedStatement.setString(1, username);
             ResultSet resultSet = preparedStatement.executeQuery();
             if (resultSet != null) {
-                while (resultSet.next()) {
-                    if (resultSet.getInt(1) == 1) {
-                        return true;
-                    }
+                if (resultSet.getInt(1) == 1) {
+                    return true;
                 }
+            }
+            else {
+                println("No such user");
             }
         } catch (Exception e) {
             e.printStackTrace();
@@ -72,7 +74,7 @@ public class UserRepository {
             ResultSet resultSet = preparedStatement.executeQuery();
             if (resultSet != null) {
                 while (resultSet.next()) {
-                    if (resultSet.getString(1).equals(password)) {
+                    if (resultSet.getString("password").equals(password)) {
                         return true;
                     }
                 }
@@ -91,13 +93,26 @@ public class UserRepository {
             while (resultSet.next()) {
                 int id = resultSet.getInt("id");
                 String username = resultSet.getString("username");
+                String password = resultSet.getString("password");
                 print(String.valueOf(id));
-                println(username);
+                print(username);
+                println(password);
+
             }
 
         } catch (Exception e) {
             e.printStackTrace();
         }
+    }
 
+    public void delete(String username) {
+        try {
+            PreparedStatement preparedStatement = conn.prepareStatement(
+                    "delete from yelp.users where username = ?");
+            preparedStatement.setString(1, username);
+            preparedStatement.executeUpdate();
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
     }
 }

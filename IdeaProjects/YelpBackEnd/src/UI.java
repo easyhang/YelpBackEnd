@@ -18,7 +18,7 @@ public class UI {
         while(flag) {
             flag = ui.UIbody();
         }
-        ui.println("something wrong.");
+        ui.println("Exit");
     }
 
     public void println(String s) {
@@ -33,10 +33,12 @@ public class UI {
         ur = new UserRepository();
         println(BOUNDRY);
         println("Please select your action:");
-        print("(1) Login");
-        print("(2) Register");
-        print("(3) Check User");
-        print("(4) Browse all Information");
+        print("(1) Exit");
+        print("(2) Login");
+        print("(3) Register");
+        print("(4) Check User");
+        print("(5) Browse all Information");
+        print("(6) Delete record by username");
         println("");
         println(BOUNDRY);
         println("type here: ");
@@ -44,16 +46,24 @@ public class UI {
         int action = sc.nextInt();
 
         if (action == 1) {
+            return false;
+        }
+
+        if (action == 2) {
             println("--------Login page-------");
             println("Type username: ");
             String username = sc.next();
             println("Enter password here: ");
             String password = sc.next();
+            if (!findUser(username)) {
+                println("No such user.");
+                return true;
+            }
             boolean res = login(username, password);
-            return res;
+            return true;
         }
 
-        if (action == 2) {
+        if (action == 3) {
             println("--------register page-------");
             println("Type username: ");
             String username = sc.next();
@@ -74,8 +84,32 @@ public class UI {
             } else {
                 println("register fail");
             }
-            return res;
+            return true;
         }
+
+        if (action == 4) {
+            println("Type username: ");
+            String username = sc.next();
+            boolean res = findUser(username);
+            if (res) {
+                println("user exists");
+            } else {
+                println("user doesn't exist");
+            }
+            return true;
+        }
+
+        if (action == 5){
+            ur.browseAllInfo();
+        }
+
+        if (action == 6) {
+            println("Type username: ");
+            String username = sc.next();
+            delete(username);
+            return true;
+        }
+
         return true;
     }
 
@@ -84,7 +118,7 @@ public class UI {
         if (res) {
             println("Login success!");
         } else {
-            println("Login fail!");
+            println("Password incorrect");
         }
         return res;
     }
@@ -101,11 +135,23 @@ public class UI {
     public boolean register(String username, String password, String firstname,
                             String lastname, String email, String birthdate ) {
         if (findUser(username)) {
-            println("User name already been users, please choose another username.");
+            println("User name already been used, please choose another username.");
             return false;
         } else {
             ur.save(username, password, firstname, lastname, email, birthdate);
             return true;
+        }
+    }
+
+    public boolean delete(String username) {
+        boolean exist = findUser(username);
+        if (exist) {
+            ur.delete(username);
+            println("User: " + username + " deleted successfully.");
+            return true;
+        } else {
+            println("user doesn't exist");
+            return false;
         }
     }
 }
