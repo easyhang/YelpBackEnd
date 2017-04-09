@@ -53,7 +53,7 @@ public class UserRepository {
             preparedStatement.setString(1, username);
             ResultSet resultSet = preparedStatement.executeQuery();
             if (resultSet != null) {
-                if (resultSet.getInt(1) == 1) {
+                if (resultSet.next()) {
                     return true;
                 }
             }
