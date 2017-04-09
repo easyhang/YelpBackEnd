@@ -29,6 +29,10 @@ public class UI {
         System.out.print(s + "; ");
     }
 
+    public boolean Admin() {
+
+    }
+
     public boolean UIbody() {
         ur = new UserRepository();
         println(BOUNDRY);
