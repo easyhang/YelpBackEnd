@@ -30,13 +30,13 @@ public class UI {
     }
 
     public boolean Admin() {
-
+        return true;
     }
 
     public boolean UIbody() {
         ur = new UserRepository();
         println(BOUNDRY);
-        println("Please select your action:");
+        println("User Interfate -- Please select your action:");
         print("(1) Exit");
         print("(2) Login");
         print("(3) Register");
