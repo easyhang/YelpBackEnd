@@ -28,7 +28,7 @@ public class RestrurantComment {
         this.userId = userId;
     }
 
-    public int getUserId(int userId) {
+    public int getUserId() {
         return userId;
     }
 }

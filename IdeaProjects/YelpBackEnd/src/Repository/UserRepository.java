@@ -1,9 +1,13 @@
 package Repository;
+import java.security.spec.ECField;
 import java.sql.*;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 
 import DBUtil.DBManagement;
+import Model.Restrurant;
+import Model.RestrurantComment;
+import Model.User;
 
 /**
  * Created by leon on 4/3/17.
@@ -24,18 +28,17 @@ public class UserRepository {
 //        stmt = DBManagement.CreateStatement(conn);
     }
 
-    public void save(String username, String password, String firstname,
-                     String lastname, String email, String birthdate) {
+    public void save(User user) {
         try {
             PreparedStatement preparedStatement = conn.prepareStatement("insert into users (username, password, firstname, " +
                     "lastname, email, birthdate) values (?, ?, ?, ?, ?, ?)");
-            preparedStatement.setString(1, username);
-            preparedStatement.setString(2, password);
-            preparedStatement.setString(3, firstname);
-            preparedStatement.setString(4, lastname);
-            preparedStatement.setString(5, email);
+            preparedStatement.setString(1, user.getUsername());
+            preparedStatement.setString(2, user.getPassword());
+            preparedStatement.setString(3, user.getFirstname());
+            preparedStatement.setString(4, user.getLastname());
+            preparedStatement.setString(5, user.getEmailaddress());
             preparedStatement.setDate(6, new java.sql.Date(new SimpleDateFormat
-                    ("MM/dd/yyyy").parse(birthdate.substring(0,10)).getTime()));
+                    ("MM/dd/yyyy").parse(user.getBirthdate().substring(0,10)).getTime()));
 
             preparedStatement.executeUpdate();
         } catch (SQLException se) {
@@ -85,6 +88,23 @@ public class UserRepository {
         return false;
     }
 
+    public int getUserId(String username) {
+        try {
+            PreparedStatement preparedStatement = conn.prepareStatement("select id " +
+                    "from users where username = ?");
+            preparedStatement.setString(1, username);
+            ResultSet resultSet = preparedStatement.executeQuery();
+            if (resultSet != null) {
+                return resultSet.getInt("id");
+            } else {
+                return -1;
+            }
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        return 0;
+    }
+
     public void browseAllInfo() {
         try {
             Statement stmt = conn.createStatement();
@@ -105,11 +125,50 @@ public class UserRepository {
         }
     }
 
-    public void delete(String username) {
+    public void addRestrurantComment(RestrurantComment restrurantComment) {
+        try {
+            PreparedStatement preparedStatement = conn.prepareStatement("INSERT into " +
+                    "restrurantcomnents (content, userid, restrurantid) values (?, ?, ?)");
+            preparedStatement.setString(1, restrurantComment.getContent());
+            preparedStatement.setInt(2, restrurantComment.getUserId());
+            preparedStatement.setInt(3, restrurantComment.getRestrurantId());
+
+            preparedStatement.executeUpdate();
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
+
+    public void searchForRestrurants(String segments) {
         try {
             PreparedStatement preparedStatement = conn.prepareStatement(
-                    "delete from yelp.users where username = ?");
-            preparedStatement.setString(1, username);
+                    "select id, name, address, type from restrurants " +
+                            "where name like ?");
+            preparedStatement.setString(1, "?" + segments + "?");
+            ResultSet resultSet = preparedStatement.executeQuery();
+            while (resultSet.next()) {
+                int id = resultSet.getInt("id");
+                String name = resultSet.getString("name");
+                String address = resultSet.getString("address");
+//                String type = resultSet.getString("type");
+                print(String.valueOf(id));
+                print(name);
+                print(address);
+//                println(type);
+            }
+
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
+
+    public void saveRestrurantComments(RestrurantComment restrurantComment) {
+        try {
+            PreparedStatement preparedStatement = conn.prepareStatement("INSERT " +
+                    "into restrurantcomments (content, userid, restrurantid) values (?, ?, ?)");
+            preparedStatement.setString(1, restrurantComment.getContent());
+            preparedStatement.setInt(2, restrurantComment.getUserId());
+            preparedStatement.setInt(3, restrurantComment.getRestrurantId());
             preparedStatement.executeUpdate();
         } catch (Exception e) {
             e.printStackTrace();
