@@ -28,7 +28,7 @@ public class UI {
             ui.print("(3) User");
             ui.println("");
             ui.println(BOUNDRY);
-            ui.println("type here: ");
+            ui.print1("type here:\t");
             int action = sc.nextInt();
             switch (action) {
                 case 1:
@@ -60,20 +60,26 @@ public class UI {
     public void print(String s) {
         System.out.print(s + "; ");
     }
+    public void print1(String s) {
+        System.out.print(s);
+    }
+    public void print2(String s) {
+        System.out.print(s + "\t");
+    }
 
     public boolean Admin() {
         ad = new AdminRepository();
         println(BOUNDRY);
-        println("Admin Interface -- Please select your action");
+        println("Admin Interface -- Please select your action -------------");
         print("(1) Exit");
         print("(2) Add Restrurant");
         print("(11) Browse all user Information");
-        print("(12) Browse all restrurant Info");
+        println("(12) Browse all restrurant Info");
         print("(13) Browse all food info");
         print("(21) Delete record by username");
         println("");
         println(BOUNDRY);
-        println("type here: ");
+        print1("type here:\t");
         Scanner sc = new Scanner(System.in);
         int action = sc.nextInt();
 
@@ -84,12 +90,13 @@ public class UI {
         if (action == 2) {
             Restrurant restrurant = new Restrurant();
             println("--------restrurant add page-------");
-            println("Type restrurant name: ");
-            String name = sc.next();
-            println("Enter address here: ");
-            String address = sc.next();
-            println("Enter type here (chinese food, cubian food, etc): ");
-            String type = sc.next();
+            sc.nextLine();
+            print1("Type restrurant name:\t");
+            String name = sc.nextLine();
+            print1("Enter address here:\t");
+            String address = sc.nextLine();
+            print1("Enter type here (chinese food, cubian food, etc):\t");
+            String type = sc.nextLine();
             restrurant.setRestrurantName(name);
             restrurant.setAddress(address);
             restrurant.setType(type);
@@ -129,7 +136,7 @@ public class UI {
         print("(5) Browse all Information");
         println("");
         println(BOUNDRY);
-        println("type here: ");
+        print1("type here:\t");
         Scanner sc = new Scanner(System.in);
         int action = sc.nextInt();
 
@@ -139,9 +146,9 @@ public class UI {
 
         if (action == 2) {
             println("--------Login page-------");
-            println("Type username: ");
+            print1("Type username:\t");
             String username = sc.next();
-            println("Enter password here: ");
+            print1("Enter password here:\t");
             String password = sc.next();
             if (!findUser(username)) {
                 println("No such user.");
@@ -153,17 +160,17 @@ public class UI {
 
         if (action == 3) {
             println("--------register page-------");
-            println("Type username: ");
+            print1("Type username:\t");
             String username = sc.next();
-            println("Enter password here: ");
+            print1("Enter password here:\t");
             String password = sc.next();
-            println("Type firstname: ");
+            print1("Type firstname:\t");
             String firstname = sc.next();
-            println("Type lastname: ");
+            print1("Type lastname:\t");
             String lastname = sc.next();
-            println("Type emailaddress: ");
+            print1("Type emailaddress:\t");
             String email = sc.next();
-            println("Type birthdate (MM/dd/yyyy): ");
+            print1("Type birthdate (MM/dd/yyyy):\t");
             String birthdate = sc.next();
 
             User user = new User();
@@ -183,7 +190,7 @@ public class UI {
         }
 
         if (action == 4) {
-            println("Type username: ");
+            print1("Type username:\t");
             String username = sc.next();
             boolean res = findUser(username);
             if (res) {
@@ -213,7 +220,7 @@ public class UI {
                 print("(1) Log out");
                 print("(2) add comments");
                 println("(11) search for restrurants");
-                println("Type action number: ");
+                print2("Type action number:\t");
 
                 int action = sc.nextInt();
                 switch (action) {
@@ -221,17 +228,19 @@ public class UI {
                         res = false;
                         break;
                     case 2:
-                        println("Enter restrurant Id: ");
+                        print2("Enter restrurant Id:\t");
                         int restrurantId = sc.nextInt();
-                        println("Enter your conment here");
-                        String content = sc.next();
+                        sc.nextLine();
+                        print2("Enter your content here:\t");
+                        String content = sc.nextLine();
+
                         RestrurantComment restrurantComment = new RestrurantComment();
                         restrurantComment.setContent(content);
                         restrurantComment.setRestrurantId(restrurantId);
                         restrurantComment.setUserId(ur.getUserId(username));
                         break;
                     case 11:
-                        println("enter a segment of the restrurant name:");
+                        print2("enter a segment of the restrurant name (* for all):\t");
                         String seg = sc.next();
                         ur.searchForRestrurants(seg);
                         break;

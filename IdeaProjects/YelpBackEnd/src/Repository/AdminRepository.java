@@ -17,7 +17,7 @@ public class AdminRepository {
     }
 
     public void print(String s) {
-        System.out.print(s + " ");
+        System.out.print(s + "\t");
     }
 
     public AdminRepository() {
@@ -33,7 +33,7 @@ public class AdminRepository {
             preparedStatement.setString(3, restrurant.getType());
 
             preparedStatement.executeUpdate();
-            println("add restrurant success.");
+            println("Add restrurant success.");
         } catch (SQLException se) {
             se.printStackTrace();
         }

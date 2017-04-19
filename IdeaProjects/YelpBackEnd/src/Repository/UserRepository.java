@@ -14,6 +14,7 @@ import Model.User;
  */
 public class UserRepository {
     Connection conn = null;
+    static String BOUNDRY = "-------------------------------------";
 
     public void println(String s) {
         System.out.println(s);
@@ -95,9 +96,11 @@ public class UserRepository {
             preparedStatement.setString(1, username);
             ResultSet resultSet = preparedStatement.executeQuery();
             if (resultSet != null) {
-                return resultSet.getInt("id");
-            } else {
-                return -1;
+                if (resultSet.next()) {
+                    return resultSet.getInt("id");
+                } else {
+                    return -1;
+                }
             }
         } catch (Exception e) {
             e.printStackTrace();
@@ -114,8 +117,8 @@ public class UserRepository {
                 int id = resultSet.getInt("id");
                 String username = resultSet.getString("username");
                 String password = resultSet.getString("password");
-                print(String.valueOf(id));
-                print(username);
+                print(String.valueOf(id) + "\t");
+                print(username + "\t");
                 println(password);
 
             }
@@ -144,23 +147,34 @@ public class UserRepository {
             PreparedStatement preparedStatement = conn.prepareStatement(
                     "select id, name, address, type from restrurants " +
                             "where name like ?");
-            preparedStatement.setString(1, "?" + segments + "?");
-            ResultSet resultSet = preparedStatement.executeQuery();
+            preparedStatement.setString(1, "%" + segments + "%");
+            ResultSet resultSet;
+            if (segments.equals("*")) {
+                String sql = "select * from restrurants";
+                Statement statement = conn.createStatement();
+                resultSet = statement.executeQuery(sql);
+            } else {
+                resultSet = preparedStatement.executeQuery();
+            }
+            println(BOUNDRY);
             while (resultSet.next()) {
                 int id = resultSet.getInt("id");
                 String name = resultSet.getString("name");
                 String address = resultSet.getString("address");
-//                String type = resultSet.getString("type");
-                print(String.valueOf(id));
-                print(name);
-                print(address);
-//                println(type);
+                String type = resultSet.getString("type");
+                print(String.valueOf(id) + "\t");
+                print(name + "\t");
+                print(address + "\t");
+                println(type);
             }
+            println(BOUNDRY);
 
         } catch (Exception e) {
             e.printStackTrace();
         }
     }
+
+
 
     public void saveRestrurantComments(RestrurantComment restrurantComment) {
         try {
