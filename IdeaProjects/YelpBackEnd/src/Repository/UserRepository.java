@@ -3,6 +3,7 @@ import java.security.spec.ECField;
 import java.sql.*;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
+import java.util.HashSet;
 
 import DBUtil.DBManagement;
 import Model.Restrurant;
@@ -186,6 +187,44 @@ public class UserRepository {
             preparedStatement.executeUpdate();
         } catch (Exception e) {
             e.printStackTrace();
+        }
+    }
+
+    public boolean follow(int followerId, int followeeId) {
+        try {
+            if (findFollowship(followerId, followeeId)) {
+                return false;
+            }
+            PreparedStatement preparedStatement = conn.prepareStatement("INSERT INTO " +
+                    "followship (followerId, followeeId) VALUEs (?, ?)");
+            preparedStatement.setInt(1, followerId);
+            preparedStatement.setInt(2, followeeId);
+            preparedStatement.executeUpdate();
+
+        } catch (Exception e) {
+            e.printStackTrace();
+            return false;
+        }
+        return true;
+    }
+
+    public boolean findFollowship(int followerId, int followeeId) {
+        try {
+            PreparedStatement preparedStatement = conn.prepareStatement("SELECT " +
+                    "followeeId from followship where followerId = ?");
+            preparedStatement.setInt(1, followerId);
+            ResultSet resultSet = preparedStatement.executeQuery();
+            while (resultSet.next()) {
+                int id = resultSet.getInt("followeeId");
+                if (id == followeeId) {
+                    return false;
+                }
+            }
+            return true;
+        } catch (Exception e) {
+            e.printStackTrace();
+        } finally {
+            return true;
         }
     }
 }
