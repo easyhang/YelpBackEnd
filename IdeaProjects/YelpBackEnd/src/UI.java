@@ -12,7 +12,8 @@ import java.util.StringJoiner;
  */
 
 public class UI {
-    static String BOUNDRY = "-------------------------------------";
+    static String BOUNDRY = "-----------------------------------" +
+            "---------------------------------------------------------------";
     UserRepository ur = null;
     AdminRepository ad = null;
 
@@ -63,7 +64,7 @@ public class UI {
     public void print1(String s) {
         System.out.print(s);
     }
-    public void print2(String s) {
+    public void printt(String s) {
         System.out.print(s + "\t");
     }
 
@@ -215,12 +216,15 @@ public class UI {
             println("Login success!");
             Scanner sc = new Scanner(System.in);
             while (res) {
-                println("--------Logged in user interface -------");
+                println("------------- Logged in user interface ------------");
                 println("Please select you action: ");
                 print("(1) Log out");
                 print("(2) add comments");
+                print("(3) follow other users");
+                print("(4) browse followings");
+                println("(5) watch one followings' comments");
                 println("(11) search for restrurants");
-                print2("Type action number:\t");
+                printt("Type action number:\t");
 
                 int action = sc.nextInt();
                 switch (action) {
@@ -228,10 +232,10 @@ public class UI {
                         res = false;
                         break;
                     case 2:
-                        print2("Enter restrurant Id:\t");
+                        printt("Enter restrurant Id:\t");
                         int restrurantId = sc.nextInt();
                         sc.nextLine();
-                        print2("Enter your content here:\t");
+                        printt("Enter your content here:\t");
                         String content = sc.nextLine();
 
                         RestrurantComment restrurantComment = new RestrurantComment();
@@ -239,8 +243,30 @@ public class UI {
                         restrurantComment.setRestrurantId(restrurantId);
                         restrurantComment.setUserId(ur.getUserId(username));
                         break;
+                    case 3:
+                        printt("Enter followee's ID:\t");
+                        int followeeId = sc.nextInt();
+                        int followerId = ur.getUserId(username);
+                        int val = ur.follow(followerId, followeeId);
+                        if (val == -1) {
+                            println("followship meets an error");
+                        } else if (val == 0) {
+                            println("followee already been followed by current user");
+                        } else if (val == 1) {
+                            println("follow success!");
+                        }
+                        break;
+                    case 4:
+                        int id = ur.getUserId(username);
+                        ur.browseFollowings(id);
+                        break;
+                    case 5:
+                        int thisId = ur.getUserId(username);
+                        printt("Enter a following's Id: ");
+                        int followingId = sc.nextInt();
+                        ur.watchOneFollowingComments_AllRestrurants(thisId, followingId);
                     case 11:
-                        print2("enter a segment of the restrurant name (* for all):\t");
+                        printt("enter a segment of the restrurant name (* for all):\t");
                         String seg = sc.next();
                         ur.searchForRestrurants(seg);
                         break;

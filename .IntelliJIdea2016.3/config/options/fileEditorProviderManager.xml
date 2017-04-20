@@ -1,0 +1,9 @@
+<application>
+  <component name="FileEditorProviderManager">
+    <option name="selectedProviders">
+      <map>
+        <entry key="com.intellij.database.editor.DatabaseTableFileEditorProvider,text-editor" value="com.intellij.database.editor.DatabaseTableFileEditorProvider" />
+      </map>
+    </option>
+  </component>
+</application>

@@ -15,7 +15,8 @@ import Model.User;
  */
 public class UserRepository {
     Connection conn = null;
-    static String BOUNDRY = "-------------------------------------";
+    static String BOUNDRY = "----------------------------------------------------------" +
+            "----------------------";
 
     public void println(String s) {
         System.out.println(s);
@@ -23,6 +24,14 @@ public class UserRepository {
 
     public void print(String s) {
         System.out.print(s + " ");
+    }
+
+    public void print1(String s) {
+        System.out.print(s + "\t");
+    }
+
+    public void print2(String s) {
+        System.out.print(s + "; ");
     }
 
     public UserRepository() {
@@ -190,22 +199,21 @@ public class UserRepository {
         }
     }
 
-    public boolean follow(int followerId, int followeeId) {
+    public int follow(int followerId, int followeeId) {
         try {
             if (findFollowship(followerId, followeeId)) {
-                return false;
+                return 0;
             }
             PreparedStatement preparedStatement = conn.prepareStatement("INSERT INTO " +
                     "followship (followerId, followeeId) VALUEs (?, ?)");
             preparedStatement.setInt(1, followerId);
             preparedStatement.setInt(2, followeeId);
             preparedStatement.executeUpdate();
-
+            return 1;
         } catch (Exception e) {
             e.printStackTrace();
-            return false;
+            return -1;
         }
-        return true;
     }
 
     public boolean findFollowship(int followerId, int followeeId) {
@@ -223,8 +231,62 @@ public class UserRepository {
             return true;
         } catch (Exception e) {
             e.printStackTrace();
-        } finally {
-            return true;
+        }
+        return true;
+    }
+
+    public void browseFollowings(int followerId) {
+        try {
+            PreparedStatement preparedStatement = conn.prepareStatement("SELECT * " +
+                    "from followship where followerId = ?");
+            preparedStatement.setInt(1,followerId);
+            ResultSet resultSet = preparedStatement.executeQuery();
+            if (resultSet != null) {
+                while (resultSet.next()) {
+                    int tmpId = resultSet.getInt("followeeId");
+                    print2(String.valueOf(tmpId));
+                }
+            }
+            println("");
+            println(BOUNDRY);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+
+    }
+
+    public void watchOneFollowingComments_AllRestrurants(int followerId, int followingId) {
+        try {
+            PreparedStatement preparedStatement = conn.prepareStatement("SELECT" +
+                    " users.username, restrurants.name, restrurantcomments.content " +
+                    "from restrurantcomments " +
+                    "  join users " +
+                    "    on restrurantcomments.userId = users.id " +
+                    "  join restrurants " +
+                    "    on restrurantcomments.restrurantId = restrurants.id " +
+                    "where users.id = ?");
+            preparedStatement.setInt(1, followingId);
+            ResultSet resultSet = preparedStatement.executeQuery();
+            if (resultSet != null) {
+                while (resultSet.next()) {
+                    String username = resultSet.getString("users.username");
+                    String restrurantName = resultSet.getString("restrurants.name");
+                    String content = resultSet.getString("restrurantcomments.content");
+                    print1(username + ":");
+                    print1("[" + restrurantName + "]");
+                    println(content);
+                }
+            }
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
+
+    public void watchAllFollowingComments_AllRestrurants(int id) {
+        try {
+
+        } catch (Exception e) {
+            e.printStackTrace();
         }
     }
 }
