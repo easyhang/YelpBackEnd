@@ -111,7 +111,7 @@ public class UI {
             println(">>>>>>>>>>>>>>>>> food add page >>>>>>>>>>>>>>>>>>>");
             sc.nextLine();
             print1("Type food name:\t");
-            String name = sc.next();
+            String name = sc.nextLine();
             print1("Enter restrurant Id here:\t");
             int resId = sc.nextInt();
             food.setFoodName(name);

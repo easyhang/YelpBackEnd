@@ -42,7 +42,7 @@ public class AdminRepository {
     public void saveFood(Food food) {
         try {
             PreparedStatement preparedStatement = conn.prepareStatement("insert into food (" +
-                    "name, restruantId) VALUEs (? ?)");
+                    "name, restrurantId) VALUEs (?, ?)");
             preparedStatement.setString(1, food.getFoodName());
             preparedStatement.setInt(2, food.getRestrurantId());
 

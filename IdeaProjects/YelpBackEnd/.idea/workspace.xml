@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="35405697-4bcc-4d53-8ed0-c245ca32bb3f" name="Default" comment="">
-      <change type="DELETED" beforePath="$APPLICATION_CONFIG_DIR$/options/fileEditorProviderManager.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/YelpBackEnd/UI.class" afterPath="$PROJECT_DIR$/out/production/YelpBackEnd/UI.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Repository/AdminRepository.java" afterPath="$PROJECT_DIR$/src/Repository/AdminRepository.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Repository/UserRepository.java" afterPath="$PROJECT_DIR$/src/Repository/UserRepository.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/UI.java" afterPath="$PROJECT_DIR$/src/UI.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -47,20 +43,6 @@
         <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
       </PATH_ELEMENT>
       <PATH_ELEMENT>
-        <option name="myItemId" value="restrurantcomments" />
-        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
-      </PATH_ELEMENT>
-    </PATH>
-    <PATH>
-      <PATH_ELEMENT>
-        <option name="myItemId" />
-        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
-      </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="yelp@localhost" />
-        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
-      </PATH_ELEMENT>
-      <PATH_ELEMENT>
         <option name="myItemId" value="food" />
         <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
       </PATH_ELEMENT>
@@ -69,11 +51,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="600">
-      <file leaf-file-name="UI.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="UI.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/UI.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="727">
-              <caret line="118" column="30" lean-forward="false" selection-start-line="118" selection-start-column="30" selection-end-line="118" selection-end-column="30" />
+            <state relative-caret-position="295">
+              <caret line="102" column="33" lean-forward="false" selection-start-line="102" selection-start-column="33" selection-end-line="102" selection-end-column="33" />
               <folding>
                 <element signature="method#main#0;class#UI#0" expanded="false" />
                 <element signature="method#UIbody#0;class#UI#0" expanded="false" />
@@ -89,8 +71,8 @@
       <file leaf-file-name="UserRepository.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Repository/UserRepository.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="268">
-              <caret line="205" column="0" lean-forward="false" selection-start-line="205" selection-start-column="0" selection-end-line="205" selection-end-column="0" />
+            <state relative-caret-position="269">
+              <caret line="206" column="0" lean-forward="true" selection-start-line="206" selection-start-column="0" selection-end-line="206" selection-end-column="0" />
               <folding>
                 <element signature="method#UserRepository#0;class#UserRepository#0" expanded="false" />
                 <element signature="method#save#0;class#UserRepository#0" expanded="false" />
@@ -131,56 +113,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="User.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Model/User.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="918">
-              <caret line="52" column="28" lean-forward="false" selection-start-line="52" selection-start-column="28" selection-end-line="52" selection-end-column="28" />
-              <folding>
-                <element signature="e#325#326#0" expanded="false" />
-                <element signature="e#365#366#0" expanded="false" />
-                <element signature="e#400#401#0" expanded="false" />
-                <element signature="e#431#432#0" expanded="false" />
-                <element signature="e#481#482#0" expanded="false" />
-                <element signature="e#523#524#0" expanded="false" />
-                <element signature="e#559#560#0" expanded="false" />
-                <element signature="e#591#592#0" expanded="false" />
-                <element signature="e#640#641#0" expanded="false" />
-                <element signature="e#680#681#0" expanded="false" />
-                <element signature="e#715#716#0" expanded="false" />
-                <element signature="e#746#747#0" expanded="false" />
-                <element signature="e#794#795#0" expanded="false" />
-                <element signature="e#834#835#0" expanded="false" />
-                <element signature="e#869#870#0" expanded="false" />
-                <element signature="e#900#901#0" expanded="false" />
-                <element signature="e#956#957#0" expanded="false" />
-                <element signature="e#1004#1005#0" expanded="false" />
-                <element signature="e#1128#1129#0" expanded="false" />
-                <element signature="e#1170#1171#0" expanded="false" />
-                <element signature="e#1206#1207#0" expanded="false" />
-                <element signature="e#1238#1239#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AdminRepository.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="AdminRepository.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Repository/AdminRepository.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="486">
-              <caret line="49" column="48" lean-forward="false" selection-start-line="49" selection-start-column="48" selection-end-line="49" selection-end-column="48" />
+            <state relative-caret-position="297">
+              <caret line="49" column="51" lean-forward="true" selection-start-line="49" selection-start-column="51" selection-end-line="49" selection-end-column="51" />
               <folding>
-                <marker date="1492714654072" expanded="true" signature="592:678" ph="insert into restrurants... " />
-                <marker date="1492714654072" expanded="true" signature="592:679" ph="insert into restrurants... " />
-                <marker date="1492714654072" expanded="true" signature="1202:1263" ph="insert into food... " />
-                <marker date="1492714654072" expanded="true" signature="1202:1276" ph="insert into food... " />
-                <marker date="1492714654072" expanded="true" signature="1718:1737" ph="select * fro... users" />
-                <marker date="1492714654072" expanded="true" signature="2366:2391" ph="select * fro... Restrurants" />
-                <marker date="1492714654072" expanded="true" signature="3093:3145" ph="select * fro... food" />
-                <marker date="1492714654072" expanded="true" signature="3093:3159" ph="select * fro... food" />
-                <marker date="1492714654072" expanded="true" signature="3776:3975" ph="select restr... restrurantComment" />
-                <marker date="1492714654072" expanded="true" signature="3776:4066" ph="select restr... restrurantComment" />
-                <marker date="1492714654072" expanded="true" signature="4820:4861" ph="delete from " />
+                <marker date="1492716952387" expanded="true" signature="592:678" ph="insert into restrurants... " />
+                <marker date="1492716952387" expanded="true" signature="592:679" ph="insert into restrurants... " />
+                <marker date="1492716952387" expanded="true" signature="1202:1264" ph="insert into food... " />
+                <marker date="1492716952387" expanded="true" signature="1202:1278" ph="insert into food... " />
+                <marker date="1492716952387" expanded="true" signature="1720:1739" ph="select * fro... users" />
+                <marker date="1492716952387" expanded="true" signature="2368:2393" ph="select * fro... Restrurants" />
+                <marker date="1492716952387" expanded="true" signature="3095:3147" ph="select * fro... food" />
+                <marker date="1492716952387" expanded="true" signature="3095:3161" ph="select * fro... food" />
+                <marker date="1492716952387" expanded="true" signature="3778:3977" ph="select restr... restrurantComment" />
+                <marker date="1492716952387" expanded="true" signature="3778:4068" ph="select restr... restrurantComment" />
+                <marker date="1492716952387" expanded="true" signature="4822:4863" ph="delete from " />
               </folding>
             </state>
           </provider>
@@ -790,16 +739,16 @@
       <workItem from="1492538046550" duration="12198000" />
       <workItem from="1492621777581" duration="4903000" />
       <workItem from="1492641228280" duration="5863000" />
-      <workItem from="1492711091296" duration="2903000" />
+      <workItem from="1492711091296" duration="5377000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49788000" />
+    <option name="totallyTimeSpent" value="52262000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="99" y="39" width="2061" height="1401" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -810,11 +759,12 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32964426" sideWeight="0.5016982" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2972332" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29565218" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32964426" sideWeight="0.4983018" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17079088" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21882582" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -829,7 +779,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32964426" sideWeight="0.4983018" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -855,17 +804,17 @@
         <state relative-caret-position="1026">
           <caret line="48" column="46" lean-forward="false" selection-start-line="48" selection-start-column="46" selection-end-line="48" selection-end-column="46" />
           <folding>
-            <marker date="1492714654072" expanded="true" signature="592:678" ph="insert into restrurants... " />
-            <marker date="1492714654072" expanded="true" signature="592:679" ph="insert into restrurants... " />
-            <marker date="1492714654072" expanded="true" signature="1202:1263" ph="insert into food... " />
-            <marker date="1492714654072" expanded="true" signature="1202:1276" ph="insert into food... " />
-            <marker date="1492714654072" expanded="true" signature="1718:1737" ph="select * fro... users" />
-            <marker date="1492714654072" expanded="true" signature="2366:2391" ph="select * fro... Restrurants" />
-            <marker date="1492714654072" expanded="true" signature="3093:3145" ph="select * fro... food" />
-            <marker date="1492714654072" expanded="true" signature="3093:3159" ph="select * fro... food" />
-            <marker date="1492714654072" expanded="true" signature="3776:3975" ph="select restr... restrurantComment" />
-            <marker date="1492714654072" expanded="true" signature="3776:4066" ph="select restr... restrurantComment" />
-            <marker date="1492714654072" expanded="true" signature="4820:4861" ph="delete from " />
+            <marker date="1492716952387" expanded="true" signature="592:678" ph="insert into restrurants... " />
+            <marker date="1492716952387" expanded="true" signature="592:679" ph="insert into restrurants... " />
+            <marker date="1492716952387" expanded="true" signature="1202:1264" ph="insert into food... " />
+            <marker date="1492716952387" expanded="true" signature="1202:1278" ph="insert into food... " />
+            <marker date="1492716952387" expanded="true" signature="1720:1739" ph="select * fro... users" />
+            <marker date="1492716952387" expanded="true" signature="2368:2393" ph="select * fro... Restrurants" />
+            <marker date="1492716952387" expanded="true" signature="3095:3147" ph="select * fro... food" />
+            <marker date="1492716952387" expanded="true" signature="3095:3161" ph="select * fro... food" />
+            <marker date="1492716952387" expanded="true" signature="3778:3977" ph="select restr... restrurantComment" />
+            <marker date="1492716952387" expanded="true" signature="3778:4068" ph="select restr... restrurantComment" />
+            <marker date="1492716952387" expanded="true" signature="4822:4863" ph="delete from " />
           </folding>
         </state>
       </provider>
@@ -890,28 +839,8 @@
         <state relative-caret-position="594">
           <caret line="28" column="22" lean-forward="false" selection-start-line="9" selection-start-column="5" selection-end-line="62" selection-end-column="5" />
           <folding>
-            <element signature="e#325#326#0" expanded="false" />
-            <element signature="e#365#366#0" expanded="false" />
-            <element signature="e#400#401#0" expanded="false" />
-            <element signature="e#431#432#0" expanded="false" />
-            <element signature="e#481#482#0" expanded="false" />
-            <element signature="e#523#524#0" expanded="false" />
-            <element signature="e#559#560#0" expanded="false" />
-            <element signature="e#591#592#0" expanded="false" />
-            <element signature="e#640#641#0" expanded="false" />
-            <element signature="e#680#681#0" expanded="false" />
-            <element signature="e#715#716#0" expanded="false" />
-            <element signature="e#746#747#0" expanded="false" />
-            <element signature="e#794#795#0" expanded="false" />
-            <element signature="e#834#835#0" expanded="false" />
-            <element signature="e#869#870#0" expanded="false" />
-            <element signature="e#900#901#0" expanded="false" />
-            <element signature="e#956#957#0" expanded="false" />
-            <element signature="e#1004#1005#0" expanded="false" />
-            <element signature="e#1128#1129#0" expanded="false" />
-            <element signature="e#1170#1171#0" expanded="false" />
-            <element signature="e#1206#1207#0" expanded="false" />
-            <element signature="e#1238#1239#0" expanded="false" />
+            <element signature="e#1043#1044#0" expanded="true" />
+            <element signature="e#1078#1079#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -985,17 +914,17 @@
         <state relative-caret-position="1026">
           <caret line="48" column="46" lean-forward="false" selection-start-line="48" selection-start-column="46" selection-end-line="48" selection-end-column="46" />
           <folding>
-            <marker date="1492714654072" expanded="true" signature="592:678" ph="insert into restrurants... " />
-            <marker date="1492714654072" expanded="true" signature="592:679" ph="insert into restrurants... " />
-            <marker date="1492714654072" expanded="true" signature="1202:1263" ph="insert into food... " />
-            <marker date="1492714654072" expanded="true" signature="1202:1276" ph="insert into food... " />
-            <marker date="1492714654072" expanded="true" signature="1718:1737" ph="select * fro... users" />
-            <marker date="1492714654072" expanded="true" signature="2366:2391" ph="select * fro... Restrurants" />
-            <marker date="1492714654072" expanded="true" signature="3093:3145" ph="select * fro... food" />
-            <marker date="1492714654072" expanded="true" signature="3093:3159" ph="select * fro... food" />
-            <marker date="1492714654072" expanded="true" signature="3776:3975" ph="select restr... restrurantComment" />
-            <marker date="1492714654072" expanded="true" signature="3776:4066" ph="select restr... restrurantComment" />
-            <marker date="1492714654072" expanded="true" signature="4820:4861" ph="delete from " />
+            <marker date="1492716952387" expanded="true" signature="592:678" ph="insert into restrurants... " />
+            <marker date="1492716952387" expanded="true" signature="592:679" ph="insert into restrurants... " />
+            <marker date="1492716952387" expanded="true" signature="1202:1264" ph="insert into food... " />
+            <marker date="1492716952387" expanded="true" signature="1202:1278" ph="insert into food... " />
+            <marker date="1492716952387" expanded="true" signature="1720:1739" ph="select * fro... users" />
+            <marker date="1492716952387" expanded="true" signature="2368:2393" ph="select * fro... Restrurants" />
+            <marker date="1492716952387" expanded="true" signature="3095:3147" ph="select * fro... food" />
+            <marker date="1492716952387" expanded="true" signature="3095:3161" ph="select * fro... food" />
+            <marker date="1492716952387" expanded="true" signature="3778:3977" ph="select restr... restrurantComment" />
+            <marker date="1492716952387" expanded="true" signature="3778:4068" ph="select restr... restrurantComment" />
+            <marker date="1492716952387" expanded="true" signature="4822:4863" ph="delete from " />
           </folding>
         </state>
       </provider>
@@ -1020,28 +949,8 @@
         <state relative-caret-position="594">
           <caret line="28" column="22" lean-forward="true" selection-start-line="9" selection-start-column="5" selection-end-line="62" selection-end-column="5" />
           <folding>
-            <element signature="e#325#326#0" expanded="false" />
-            <element signature="e#365#366#0" expanded="false" />
-            <element signature="e#400#401#0" expanded="false" />
-            <element signature="e#431#432#0" expanded="false" />
-            <element signature="e#481#482#0" expanded="false" />
-            <element signature="e#523#524#0" expanded="false" />
-            <element signature="e#559#560#0" expanded="false" />
-            <element signature="e#591#592#0" expanded="false" />
-            <element signature="e#640#641#0" expanded="false" />
-            <element signature="e#680#681#0" expanded="false" />
-            <element signature="e#715#716#0" expanded="false" />
-            <element signature="e#746#747#0" expanded="false" />
-            <element signature="e#794#795#0" expanded="false" />
-            <element signature="e#834#835#0" expanded="false" />
-            <element signature="e#869#870#0" expanded="false" />
-            <element signature="e#900#901#0" expanded="false" />
-            <element signature="e#956#957#0" expanded="false" />
-            <element signature="e#1004#1005#0" expanded="false" />
-            <element signature="e#1128#1129#0" expanded="false" />
-            <element signature="e#1170#1171#0" expanded="false" />
-            <element signature="e#1206#1207#0" expanded="false" />
-            <element signature="e#1238#1239#0" expanded="false" />
+            <element signature="e#1043#1044#0" expanded="true" />
+            <element signature="e#1078#1079#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1115,17 +1024,17 @@
         <state relative-caret-position="1026">
           <caret line="48" column="46" lean-forward="false" selection-start-line="48" selection-start-column="46" selection-end-line="48" selection-end-column="46" />
           <folding>
-            <marker date="1492714654072" expanded="true" signature="592:678" ph="insert into restrurants... " />
-            <marker date="1492714654072" expanded="true" signature="592:679" ph="insert into restrurants... " />
-            <marker date="1492714654072" expanded="true" signature="1202:1263" ph="insert into food... " />
-            <marker date="1492714654072" expanded="true" signature="1202:1276" ph="insert into food... " />
-            <marker date="1492714654072" expanded="true" signature="1718:1737" ph="select * fro... users" />
-            <marker date="1492714654072" expanded="true" signature="2366:2391" ph="select * fro... Restrurants" />
-            <marker date="1492714654072" expanded="true" signature="3093:3145" ph="select * fro... food" />
-            <marker date="1492714654072" expanded="true" signature="3093:3159" ph="select * fro... food" />
-            <marker date="1492714654072" expanded="true" signature="3776:3975" ph="select restr... restrurantComment" />
-            <marker date="1492714654072" expanded="true" signature="3776:4066" ph="select restr... restrurantComment" />
-            <marker date="1492714654072" expanded="true" signature="4820:4861" ph="delete from " />
+            <marker date="1492716952387" expanded="true" signature="592:678" ph="insert into restrurants... " />
+            <marker date="1492716952387" expanded="true" signature="592:679" ph="insert into restrurants... " />
+            <marker date="1492716952387" expanded="true" signature="1202:1264" ph="insert into food... " />
+            <marker date="1492716952387" expanded="true" signature="1202:1278" ph="insert into food... " />
+            <marker date="1492716952387" expanded="true" signature="1720:1739" ph="select * fro... users" />
+            <marker date="1492716952387" expanded="true" signature="2368:2393" ph="select * fro... Restrurants" />
+            <marker date="1492716952387" expanded="true" signature="3095:3147" ph="select * fro... food" />
+            <marker date="1492716952387" expanded="true" signature="3095:3161" ph="select * fro... food" />
+            <marker date="1492716952387" expanded="true" signature="3778:3977" ph="select restr... restrurantComment" />
+            <marker date="1492716952387" expanded="true" signature="3778:4068" ph="select restr... restrurantComment" />
+            <marker date="1492716952387" expanded="true" signature="4822:4863" ph="delete from " />
           </folding>
         </state>
       </provider>
@@ -1193,17 +1102,17 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1492714654072" expanded="true" signature="592:678" ph="insert into restrurants... " />
-            <marker date="1492714654072" expanded="true" signature="592:679" ph="insert into restrurants... " />
-            <marker date="1492714654072" expanded="true" signature="1202:1263" ph="insert into food... " />
-            <marker date="1492714654072" expanded="true" signature="1202:1276" ph="insert into food... " />
-            <marker date="1492714654072" expanded="true" signature="1718:1737" ph="select * fro... users" />
-            <marker date="1492714654072" expanded="true" signature="2366:2391" ph="select * fro... Restrurants" />
-            <marker date="1492714654072" expanded="true" signature="3093:3145" ph="select * fro... food" />
-            <marker date="1492714654072" expanded="true" signature="3093:3159" ph="select * fro... food" />
-            <marker date="1492714654072" expanded="true" signature="3776:3975" ph="select restr... restrurantComment" />
-            <marker date="1492714654072" expanded="true" signature="3776:4066" ph="select restr... restrurantComment" />
-            <marker date="1492714654072" expanded="true" signature="4820:4861" ph="delete from " />
+            <marker date="1492716952387" expanded="true" signature="592:678" ph="insert into restrurants... " />
+            <marker date="1492716952387" expanded="true" signature="592:679" ph="insert into restrurants... " />
+            <marker date="1492716952387" expanded="true" signature="1202:1264" ph="insert into food... " />
+            <marker date="1492716952387" expanded="true" signature="1202:1278" ph="insert into food... " />
+            <marker date="1492716952387" expanded="true" signature="1720:1739" ph="select * fro... users" />
+            <marker date="1492716952387" expanded="true" signature="2368:2393" ph="select * fro... Restrurants" />
+            <marker date="1492716952387" expanded="true" signature="3095:3147" ph="select * fro... food" />
+            <marker date="1492716952387" expanded="true" signature="3095:3161" ph="select * fro... food" />
+            <marker date="1492716952387" expanded="true" signature="3778:3977" ph="select restr... restrurantComment" />
+            <marker date="1492716952387" expanded="true" signature="3778:4068" ph="select restr... restrurantComment" />
+            <marker date="1492716952387" expanded="true" signature="4822:4863" ph="delete from " />
           </folding>
         </state>
       </provider>
@@ -1630,13 +1539,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Model/Comment.java" />
-    <entry file="file://$PROJECT_DIR$/src/Model/Food.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="22" column="28" lean-forward="false" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Model/Restrurant.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
@@ -1675,37 +1577,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Model/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="918">
-          <caret line="52" column="28" lean-forward="false" selection-start-line="52" selection-start-column="28" selection-end-line="52" selection-end-column="28" />
-          <folding>
-            <element signature="e#325#326#0" expanded="false" />
-            <element signature="e#365#366#0" expanded="false" />
-            <element signature="e#400#401#0" expanded="false" />
-            <element signature="e#431#432#0" expanded="false" />
-            <element signature="e#481#482#0" expanded="false" />
-            <element signature="e#523#524#0" expanded="false" />
-            <element signature="e#559#560#0" expanded="false" />
-            <element signature="e#591#592#0" expanded="false" />
-            <element signature="e#640#641#0" expanded="false" />
-            <element signature="e#680#681#0" expanded="false" />
-            <element signature="e#715#716#0" expanded="false" />
-            <element signature="e#746#747#0" expanded="false" />
-            <element signature="e#794#795#0" expanded="false" />
-            <element signature="e#834#835#0" expanded="false" />
-            <element signature="e#869#870#0" expanded="false" />
-            <element signature="e#900#901#0" expanded="false" />
-            <element signature="e#956#957#0" expanded="false" />
-            <element signature="e#1004#1005#0" expanded="false" />
-            <element signature="e#1128#1129#0" expanded="false" />
-            <element signature="e#1170#1171#0" expanded="false" />
-            <element signature="e#1206#1207#0" expanded="false" />
-            <element signature="e#1238#1239#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="dbDummy://dbtable:/603bee9c/d3881873-bed5-4844-808c-3686fb33ba08/yelp.restrurantcomments">
       <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1719,33 +1590,57 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/d3881873-bed5-4844-808c-3686fb33ba08/console.sql">
+    <entry file="file://$PROJECT_DIR$/src/Model/User.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+        <state relative-caret-position="432">
+          <caret line="52" column="28" lean-forward="false" selection-start-line="52" selection-start-column="28" selection-end-line="52" selection-end-column="28" />
+          <folding>
+            <element signature="e#1043#1044#0" expanded="true" />
+            <element signature="e#1078#1079#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Model/Food.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="22" column="28" lean-forward="false" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/UI.java">
+    <entry file="file://$PROJECT_DIR$/src/Repository/AdminRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="727">
-          <caret line="118" column="30" lean-forward="false" selection-start-line="118" selection-start-column="30" selection-end-line="118" selection-end-column="30" />
+        <state relative-caret-position="297">
+          <caret line="49" column="51" lean-forward="true" selection-start-line="49" selection-start-column="51" selection-end-line="49" selection-end-column="51" />
           <folding>
-            <element signature="method#main#0;class#UI#0" expanded="false" />
-            <element signature="method#UIbody#0;class#UI#0" expanded="false" />
-            <element signature="method#login#0;class#UI#0" expanded="false" />
-            <element signature="method#findUser#0;class#UI#0" expanded="false" />
-            <element signature="method#register#0;class#UI#0" expanded="false" />
-            <element signature="method#delete#0;class#UI#0" expanded="false" />
+            <marker date="1492716952387" expanded="true" signature="592:678" ph="insert into restrurants... " />
+            <marker date="1492716952387" expanded="true" signature="592:679" ph="insert into restrurants... " />
+            <marker date="1492716952387" expanded="true" signature="1202:1264" ph="insert into food... " />
+            <marker date="1492716952387" expanded="true" signature="1202:1278" ph="insert into food... " />
+            <marker date="1492716952387" expanded="true" signature="1720:1739" ph="select * fro... users" />
+            <marker date="1492716952387" expanded="true" signature="2368:2393" ph="select * fro... Restrurants" />
+            <marker date="1492716952387" expanded="true" signature="3095:3147" ph="select * fro... food" />
+            <marker date="1492716952387" expanded="true" signature="3095:3161" ph="select * fro... food" />
+            <marker date="1492716952387" expanded="true" signature="3778:3977" ph="select restr... restrurantComment" />
+            <marker date="1492716952387" expanded="true" signature="3778:4068" ph="select restr... restrurantComment" />
+            <marker date="1492716952387" expanded="true" signature="4822:4863" ph="delete from " />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/d3881873-bed5-4844-808c-3686fb33ba08/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="31" lean-forward="false" selection-start-line="0" selection-start-column="31" selection-end-line="0" selection-end-column="31" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Repository/UserRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="205" column="0" lean-forward="false" selection-start-line="205" selection-start-column="0" selection-end-line="205" selection-end-column="0" />
+        <state relative-caret-position="269">
+          <caret line="206" column="0" lean-forward="true" selection-start-line="206" selection-start-column="0" selection-end-line="206" selection-end-column="0" />
           <folding>
             <element signature="method#UserRepository#0;class#UserRepository#0" expanded="false" />
             <element signature="method#save#0;class#UserRepository#0" expanded="false" />
@@ -1785,22 +1680,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Repository/AdminRepository.java">
+    <entry file="file://$PROJECT_DIR$/src/UI.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="49" column="48" lean-forward="false" selection-start-line="49" selection-start-column="48" selection-end-line="49" selection-end-column="48" />
+        <state relative-caret-position="295">
+          <caret line="102" column="33" lean-forward="false" selection-start-line="102" selection-start-column="33" selection-end-line="102" selection-end-column="33" />
           <folding>
-            <marker date="1492714654072" expanded="true" signature="592:678" ph="insert into restrurants... " />
-            <marker date="1492714654072" expanded="true" signature="592:679" ph="insert into restrurants... " />
-            <marker date="1492714654072" expanded="true" signature="1202:1263" ph="insert into food... " />
-            <marker date="1492714654072" expanded="true" signature="1202:1276" ph="insert into food... " />
-            <marker date="1492714654072" expanded="true" signature="1718:1737" ph="select * fro... users" />
-            <marker date="1492714654072" expanded="true" signature="2366:2391" ph="select * fro... Restrurants" />
-            <marker date="1492714654072" expanded="true" signature="3093:3145" ph="select * fro... food" />
-            <marker date="1492714654072" expanded="true" signature="3093:3159" ph="select * fro... food" />
-            <marker date="1492714654072" expanded="true" signature="3776:3975" ph="select restr... restrurantComment" />
-            <marker date="1492714654072" expanded="true" signature="3776:4066" ph="select restr... restrurantComment" />
-            <marker date="1492714654072" expanded="true" signature="4820:4861" ph="delete from " />
+            <element signature="method#main#0;class#UI#0" expanded="false" />
+            <element signature="method#UIbody#0;class#UI#0" expanded="false" />
+            <element signature="method#login#0;class#UI#0" expanded="false" />
+            <element signature="method#findUser#0;class#UI#0" expanded="false" />
+            <element signature="method#register#0;class#UI#0" expanded="false" />
+            <element signature="method#delete#0;class#UI#0" expanded="false" />
           </folding>
         </state>
       </provider>
