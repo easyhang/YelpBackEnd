@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="35405697-4bcc-4d53-8ed0-c245ca32bb3f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$APPLICATION_CONFIG_DIR$/options/fileEditorProviderManager.xml" />
+      <change type="DELETED" beforePath="$APPLICATION_CONFIG_DIR$/options/fileEditorProviderManager.xml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/YelpBackEnd/UI.class" afterPath="$PROJECT_DIR$/out/production/YelpBackEnd/UI.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Repository/AdminRepository.java" afterPath="$PROJECT_DIR$/src/Repository/AdminRepository.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Repository/UserRepository.java" afterPath="$PROJECT_DIR$/src/Repository/UserRepository.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/UI.java" afterPath="$PROJECT_DIR$/src/UI.java" />
     </list>
@@ -49,19 +51,36 @@
         <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
       </PATH_ELEMENT>
     </PATH>
+    <PATH>
+      <PATH_ELEMENT>
+        <option name="myItemId" />
+        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="yelp@localhost" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="food" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+    </PATH>
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="600">
-      <file leaf-file-name="UI.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="UI.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/UI.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="15" column="20" lean-forward="false" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
+            <state relative-caret-position="727">
+              <caret line="118" column="30" lean-forward="false" selection-start-line="118" selection-start-column="30" selection-end-line="118" selection-end-column="30" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1845#1846#0" expanded="true" />
-                <element signature="e#1887#1888#0" expanded="true" />
+                <element signature="method#main#0;class#UI#0" expanded="false" />
+                <element signature="method#UIbody#0;class#UI#0" expanded="false" />
+                <element signature="method#login#0;class#UI#0" expanded="false" />
+                <element signature="method#findUser#0;class#UI#0" expanded="false" />
+                <element signature="method#register#0;class#UI#0" expanded="false" />
+                <element signature="method#delete#0;class#UI#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -70,45 +89,44 @@
       <file leaf-file-name="UserRepository.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Repository/UserRepository.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
-              <caret line="18" column="35" lean-forward="false" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
+            <state relative-caret-position="268">
+              <caret line="205" column="0" lean-forward="false" selection-start-line="205" selection-start-column="0" selection-end-line="205" selection-end-column="0" />
               <folding>
-                <element signature="e#683#684#0" expanded="true" />
-                <element signature="e#725#726#0" expanded="true" />
-                <marker date="1492647275178" expanded="true" signature="1065:1167" ph="insert into users... " />
-                <marker date="1492647275178" expanded="true" signature="1065:1193" ph="insert into users... " />
-                <marker date="1492647275178" expanded="true" signature="2086:2149" ph="select from users... " />
-                <marker date="1492647275178" expanded="true" signature="2749:2768" ph="select from users... " />
-                <marker date="1492647275178" expanded="true" signature="2749:2812" ph="select from users... " />
-                <marker date="1492647275178" expanded="true" signature="3420:3484" ph="select id fr... users" />
-                <marker date="1492647275178" expanded="true" signature="4053:4072" ph="select * fro... users" />
-                <marker date="1492647275178" expanded="true" signature="4741:4845" ph="INSERT into restrurantcomnents... " />
-                <marker date="1492647275178" expanded="true" signature="5369:5461" ph="select id, n... restrurants" />
-                <marker date="1492647275178" expanded="true" signature="5369:5467" ph="select id, n... restrurants" />
-                <marker date="1492647275178" expanded="true" signature="5640:5665" ph="select * fro... restrurants" />
-                <marker date="1492647275178" expanded="true" signature="6635:6739" ph="INSERT into restrurantcomments... " />
-                <marker date="1492647275178" expanded="true" signature="7339:7425" ph="INSERT INTO followship... " />
-                <marker date="1492647275178" expanded="true" signature="7864:7906" ph="SELECT follo... " />
-                <marker date="1492647275178" expanded="true" signature="7864:7943" ph="SELECT follo... followship" />
-                <marker date="1492647275178" expanded="true" signature="8536:8606" ph="SELECT * fro... followship" />
-                <marker date="1492647275178" expanded="true" signature="9274:9306" ph="SELECT users... users" />
-                <marker date="1492647275178" expanded="true" signature="9274:9691" ph="SELECT users... users" />
+                <element signature="method#UserRepository#0;class#UserRepository#0" expanded="false" />
+                <element signature="method#save#0;class#UserRepository#0" expanded="false" />
+                <element signature="method#findbyUsername#0;class#UserRepository#0" expanded="false" />
+                <element signature="method#findbyUserId#0;class#UserRepository#0" expanded="false" />
+                <element signature="method#findbyLogin#0;class#UserRepository#0" expanded="false" />
+                <element signature="method#getUserId#0;class#UserRepository#0" expanded="false" />
+                <element signature="method#browseAllInfo#0;class#UserRepository#0" expanded="false" />
+                <element signature="method#addRestrurantComment#0;class#UserRepository#0" expanded="false" />
+                <element signature="method#searchForRestrurants#0;class#UserRepository#0" expanded="false" />
+                <element signature="method#saveRestrurantComments#0;class#UserRepository#0" expanded="false" />
+                <element signature="method#follow#0;class#UserRepository#0" expanded="false" />
+                <element signature="method#findFollowship#0;class#UserRepository#0" expanded="false" />
+                <element signature="method#browseFollowings#0;class#UserRepository#0" expanded="false" />
+                <element signature="method#watchOneFollowingComments_AllRestrurants#0;class#UserRepository#0" expanded="false" />
+                <element signature="method#watchAllFollowingComments_AllRestrurants#0;class#UserRepository#0" expanded="false" />
+                <marker date="1492714346901" expanded="true" signature="1065:1167" ph="insert into users... " />
+                <marker date="1492714346901" expanded="true" signature="1065:1193" ph="insert into users... " />
+                <marker date="1492714346901" expanded="true" signature="2086:2149" ph="select from users... " />
+                <marker date="1492714346901" expanded="true" signature="2728:2785" ph="select * fro... users" />
+                <marker date="1492714346901" expanded="true" signature="3365:3384" ph="select from users... " />
+                <marker date="1492714346901" expanded="true" signature="3365:3428" ph="select from users... " />
+                <marker date="1492714346901" expanded="true" signature="4036:4100" ph="select id fr... users" />
+                <marker date="1492714346901" expanded="true" signature="4669:4688" ph="select * fro... users" />
+                <marker date="1492714346901" expanded="true" signature="5357:5461" ph="INSERT into restrurantcomnents... " />
+                <marker date="1492714346901" expanded="true" signature="5985:6077" ph="select id, n... restrurants" />
+                <marker date="1492714346901" expanded="true" signature="5985:6083" ph="select id, n... restrurants" />
+                <marker date="1492714346901" expanded="true" signature="6256:6281" ph="select * fro... restrurants" />
+                <marker date="1492714346901" expanded="true" signature="7251:7355" ph="INSERT into restrurantcomments... " />
+                <marker date="1492714346901" expanded="true" signature="7955:8041" ph="INSERT INTO followship... " />
+                <marker date="1492714346901" expanded="true" signature="8480:8522" ph="SELECT follo... " />
+                <marker date="1492714346901" expanded="true" signature="8480:8559" ph="SELECT follo... followship" />
+                <marker date="1492714346901" expanded="true" signature="9152:9222" ph="SELECT * fro... followship" />
+                <marker date="1492714346901" expanded="true" signature="9890:9922" ph="SELECT users... users" />
+                <marker date="1492714346901" expanded="true" signature="9890:10307" ph="SELECT users... users" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="yelp.restrurantcomments" pinned="false" current-in-tab="false">
-        <entry file="dbDummy://dbtable:/603bee9c/d3881873-bed5-4844-808c-3686fb33ba08/yelp.restrurantcomments">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true" />
-            </state>
-          </provider>
-          <provider editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -116,33 +134,53 @@
       <file leaf-file-name="User.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Model/User.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="766">
+            <state relative-caret-position="918">
               <caret line="52" column="28" lean-forward="false" selection-start-line="52" selection-start-column="28" selection-end-line="52" selection-end-column="28" />
               <folding>
-                <element signature="e#1043#1044#0" expanded="true" />
-                <element signature="e#1078#1079#0" expanded="true" />
+                <element signature="e#325#326#0" expanded="false" />
+                <element signature="e#365#366#0" expanded="false" />
+                <element signature="e#400#401#0" expanded="false" />
+                <element signature="e#431#432#0" expanded="false" />
+                <element signature="e#481#482#0" expanded="false" />
+                <element signature="e#523#524#0" expanded="false" />
+                <element signature="e#559#560#0" expanded="false" />
+                <element signature="e#591#592#0" expanded="false" />
+                <element signature="e#640#641#0" expanded="false" />
+                <element signature="e#680#681#0" expanded="false" />
+                <element signature="e#715#716#0" expanded="false" />
+                <element signature="e#746#747#0" expanded="false" />
+                <element signature="e#794#795#0" expanded="false" />
+                <element signature="e#834#835#0" expanded="false" />
+                <element signature="e#869#870#0" expanded="false" />
+                <element signature="e#900#901#0" expanded="false" />
+                <element signature="e#956#957#0" expanded="false" />
+                <element signature="e#1004#1005#0" expanded="false" />
+                <element signature="e#1128#1129#0" expanded="false" />
+                <element signature="e#1170#1171#0" expanded="false" />
+                <element signature="e#1206#1207#0" expanded="false" />
+                <element signature="e#1238#1239#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AdminRepository.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="AdminRepository.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Repository/AdminRepository.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="675">
-              <caret line="35" column="37" lean-forward="false" selection-start-line="35" selection-start-column="37" selection-end-line="35" selection-end-column="37" />
+            <state relative-caret-position="486">
+              <caret line="49" column="48" lean-forward="false" selection-start-line="49" selection-start-column="48" selection-end-line="49" selection-end-column="48" />
               <folding>
-                <marker date="1492625623247" expanded="true" signature="592:678" ph="insert into restrurants... " />
-                <marker date="1492625623247" expanded="true" signature="592:679" ph="insert into restrurants... " />
-                <marker date="1492625623247" expanded="true" signature="1202:1263" ph="insert into food... " />
-                <marker date="1492625623247" expanded="true" signature="1202:1276" ph="insert into food... " />
-                <marker date="1492625623247" expanded="true" signature="1666:1685" ph="select * fro... users" />
-                <marker date="1492625623247" expanded="true" signature="2320:2345" ph="select * fro... Restrurants" />
-                <marker date="1492625623247" expanded="true" signature="3047:3099" ph="select * fro... food" />
-                <marker date="1492625623247" expanded="true" signature="3047:3113" ph="select * fro... food" />
-                <marker date="1492625623247" expanded="true" signature="3730:3929" ph="select restr... restrurantComment" />
-                <marker date="1492625623247" expanded="true" signature="3730:4020" ph="select restr... restrurantComment" />
-                <marker date="1492625623247" expanded="true" signature="4774:4815" ph="delete from " />
+                <marker date="1492714654072" expanded="true" signature="592:678" ph="insert into restrurants... " />
+                <marker date="1492714654072" expanded="true" signature="592:679" ph="insert into restrurants... " />
+                <marker date="1492714654072" expanded="true" signature="1202:1263" ph="insert into food... " />
+                <marker date="1492714654072" expanded="true" signature="1202:1276" ph="insert into food... " />
+                <marker date="1492714654072" expanded="true" signature="1718:1737" ph="select * fro... users" />
+                <marker date="1492714654072" expanded="true" signature="2366:2391" ph="select * fro... Restrurants" />
+                <marker date="1492714654072" expanded="true" signature="3093:3145" ph="select * fro... food" />
+                <marker date="1492714654072" expanded="true" signature="3093:3159" ph="select * fro... food" />
+                <marker date="1492714654072" expanded="true" signature="3776:3975" ph="select restr... restrurantComment" />
+                <marker date="1492714654072" expanded="true" signature="3776:4066" ph="select restr... restrurantComment" />
+                <marker date="1492714654072" expanded="true" signature="4820:4861" ph="delete from " />
               </folding>
             </state>
           </provider>
@@ -188,11 +226,11 @@
         <option value="$PROJECT_DIR$/src/Model/Food.java" />
         <option value="$PROJECT_DIR$/src/Model/User.java" />
         <option value="$PROJECT_DIR$/src/Model/RestrurantComment.java" />
-        <option value="$PROJECT_DIR$/src/Repository/AdminRepository.java" />
         <option value="dbtable:/603bee9c/d3881873-bed5-4844-808c-3686fb33ba08/yelp.restrurantcomments" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/d3881873-bed5-4844-808c-3686fb33ba08/console.sql" />
         <option value="$PROJECT_DIR$/src/Repository/UserRepository.java" />
         <option value="$PROJECT_DIR$/src/UI.java" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/d3881873-bed5-4844-808c-3686fb33ba08/console.sql" />
+        <option value="$PROJECT_DIR$/src/Repository/AdminRepository.java" />
       </list>
     </option>
   </component>
@@ -224,7 +262,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -309,6 +346,7 @@
       </pane>
       <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -751,16 +789,17 @@
       <workItem from="1492537844347" duration="151000" />
       <workItem from="1492538046550" duration="12198000" />
       <workItem from="1492621777581" duration="4903000" />
-      <workItem from="1492641228280" duration="5588000" />
+      <workItem from="1492641228280" duration="5863000" />
+      <workItem from="1492711091296" duration="2903000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46610000" />
+    <option name="totallyTimeSpent" value="49788000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="99" y="39" width="2061" height="1401" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -771,12 +810,11 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32964426" sideWeight="0.5016982" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.49328062" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2972332" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32964426" sideWeight="0.4983018" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17079088" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21882582" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -791,6 +829,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32964426" sideWeight="0.4983018" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -802,7 +841,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <option name="time" value="4" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -816,17 +855,17 @@
         <state relative-caret-position="1026">
           <caret line="48" column="46" lean-forward="false" selection-start-line="48" selection-start-column="46" selection-end-line="48" selection-end-column="46" />
           <folding>
-            <marker date="1492625623247" expanded="true" signature="592:678" ph="insert into restrurants... " />
-            <marker date="1492625623247" expanded="true" signature="592:679" ph="insert into restrurants... " />
-            <marker date="1492625623247" expanded="true" signature="1202:1263" ph="insert into food... " />
-            <marker date="1492625623247" expanded="true" signature="1202:1276" ph="insert into food... " />
-            <marker date="1492625623247" expanded="true" signature="1666:1685" ph="select * fro... users" />
-            <marker date="1492625623247" expanded="true" signature="2320:2345" ph="select * fro... Restrurants" />
-            <marker date="1492625623247" expanded="true" signature="3047:3099" ph="select * fro... food" />
-            <marker date="1492625623247" expanded="true" signature="3047:3113" ph="select * fro... food" />
-            <marker date="1492625623247" expanded="true" signature="3730:3929" ph="select restr... restrurantComment" />
-            <marker date="1492625623247" expanded="true" signature="3730:4020" ph="select restr... restrurantComment" />
-            <marker date="1492625623247" expanded="true" signature="4774:4815" ph="delete from " />
+            <marker date="1492714654072" expanded="true" signature="592:678" ph="insert into restrurants... " />
+            <marker date="1492714654072" expanded="true" signature="592:679" ph="insert into restrurants... " />
+            <marker date="1492714654072" expanded="true" signature="1202:1263" ph="insert into food... " />
+            <marker date="1492714654072" expanded="true" signature="1202:1276" ph="insert into food... " />
+            <marker date="1492714654072" expanded="true" signature="1718:1737" ph="select * fro... users" />
+            <marker date="1492714654072" expanded="true" signature="2366:2391" ph="select * fro... Restrurants" />
+            <marker date="1492714654072" expanded="true" signature="3093:3145" ph="select * fro... food" />
+            <marker date="1492714654072" expanded="true" signature="3093:3159" ph="select * fro... food" />
+            <marker date="1492714654072" expanded="true" signature="3776:3975" ph="select restr... restrurantComment" />
+            <marker date="1492714654072" expanded="true" signature="3776:4066" ph="select restr... restrurantComment" />
+            <marker date="1492714654072" expanded="true" signature="4820:4861" ph="delete from " />
           </folding>
         </state>
       </provider>
@@ -836,9 +875,12 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1845#1846#0" expanded="true" />
-            <element signature="e#1887#1888#0" expanded="true" />
+            <element signature="method#main#0;class#UI#0" expanded="false" />
+            <element signature="method#UIbody#0;class#UI#0" expanded="false" />
+            <element signature="method#login#0;class#UI#0" expanded="false" />
+            <element signature="method#findUser#0;class#UI#0" expanded="false" />
+            <element signature="method#register#0;class#UI#0" expanded="false" />
+            <element signature="method#delete#0;class#UI#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -848,8 +890,28 @@
         <state relative-caret-position="594">
           <caret line="28" column="22" lean-forward="false" selection-start-line="9" selection-start-column="5" selection-end-line="62" selection-end-column="5" />
           <folding>
-            <element signature="e#1043#1044#0" expanded="true" />
-            <element signature="e#1078#1079#0" expanded="true" />
+            <element signature="e#325#326#0" expanded="false" />
+            <element signature="e#365#366#0" expanded="false" />
+            <element signature="e#400#401#0" expanded="false" />
+            <element signature="e#431#432#0" expanded="false" />
+            <element signature="e#481#482#0" expanded="false" />
+            <element signature="e#523#524#0" expanded="false" />
+            <element signature="e#559#560#0" expanded="false" />
+            <element signature="e#591#592#0" expanded="false" />
+            <element signature="e#640#641#0" expanded="false" />
+            <element signature="e#680#681#0" expanded="false" />
+            <element signature="e#715#716#0" expanded="false" />
+            <element signature="e#746#747#0" expanded="false" />
+            <element signature="e#794#795#0" expanded="false" />
+            <element signature="e#834#835#0" expanded="false" />
+            <element signature="e#869#870#0" expanded="false" />
+            <element signature="e#900#901#0" expanded="false" />
+            <element signature="e#956#957#0" expanded="false" />
+            <element signature="e#1004#1005#0" expanded="false" />
+            <element signature="e#1128#1129#0" expanded="false" />
+            <element signature="e#1170#1171#0" expanded="false" />
+            <element signature="e#1206#1207#0" expanded="false" />
+            <element signature="e#1238#1239#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -880,26 +942,40 @@
         <state relative-caret-position="378">
           <caret line="22" column="20" lean-forward="false" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
           <folding>
-            <element signature="e#683#684#0" expanded="true" />
-            <element signature="e#725#726#0" expanded="true" />
-            <marker date="1492647275178" expanded="true" signature="1065:1167" ph="insert into users... " />
-            <marker date="1492647275178" expanded="true" signature="1065:1193" ph="insert into users... " />
-            <marker date="1492647275178" expanded="true" signature="2086:2149" ph="select from users... " />
-            <marker date="1492647275178" expanded="true" signature="2749:2768" ph="select from users... " />
-            <marker date="1492647275178" expanded="true" signature="2749:2812" ph="select from users... " />
-            <marker date="1492647275178" expanded="true" signature="3420:3484" ph="select id fr... users" />
-            <marker date="1492647275178" expanded="true" signature="4053:4072" ph="select * fro... users" />
-            <marker date="1492647275178" expanded="true" signature="4741:4845" ph="INSERT into restrurantcomnents... " />
-            <marker date="1492647275178" expanded="true" signature="5369:5461" ph="select id, n... restrurants" />
-            <marker date="1492647275178" expanded="true" signature="5369:5467" ph="select id, n... restrurants" />
-            <marker date="1492647275178" expanded="true" signature="5640:5665" ph="select * fro... restrurants" />
-            <marker date="1492647275178" expanded="true" signature="6635:6739" ph="INSERT into restrurantcomments... " />
-            <marker date="1492647275178" expanded="true" signature="7339:7425" ph="INSERT INTO followship... " />
-            <marker date="1492647275178" expanded="true" signature="7864:7906" ph="SELECT follo... " />
-            <marker date="1492647275178" expanded="true" signature="7864:7943" ph="SELECT follo... followship" />
-            <marker date="1492647275178" expanded="true" signature="8536:8606" ph="SELECT * fro... followship" />
-            <marker date="1492647275178" expanded="true" signature="9274:9306" ph="SELECT users... users" />
-            <marker date="1492647275178" expanded="true" signature="9274:9691" ph="SELECT users... users" />
+            <element signature="method#UserRepository#0;class#UserRepository#0" expanded="false" />
+            <element signature="method#save#0;class#UserRepository#0" expanded="false" />
+            <element signature="method#findbyUsername#0;class#UserRepository#0" expanded="false" />
+            <element signature="method#findbyUserId#0;class#UserRepository#0" expanded="false" />
+            <element signature="method#findbyLogin#0;class#UserRepository#0" expanded="false" />
+            <element signature="method#getUserId#0;class#UserRepository#0" expanded="false" />
+            <element signature="method#browseAllInfo#0;class#UserRepository#0" expanded="false" />
+            <element signature="method#addRestrurantComment#0;class#UserRepository#0" expanded="false" />
+            <element signature="method#searchForRestrurants#0;class#UserRepository#0" expanded="false" />
+            <element signature="method#saveRestrurantComments#0;class#UserRepository#0" expanded="false" />
+            <element signature="method#follow#0;class#UserRepository#0" expanded="false" />
+            <element signature="method#findFollowship#0;class#UserRepository#0" expanded="false" />
+            <element signature="method#browseFollowings#0;class#UserRepository#0" expanded="false" />
+            <element signature="method#watchOneFollowingComments_AllRestrurants#0;class#UserRepository#0" expanded="false" />
+            <element signature="method#watchAllFollowingComments_AllRestrurants#0;class#UserRepository#0" expanded="false" />
+            <marker date="1492714346901" expanded="true" signature="1065:1167" ph="insert into users... " />
+            <marker date="1492714346901" expanded="true" signature="1065:1193" ph="insert into users... " />
+            <marker date="1492714346901" expanded="true" signature="2086:2149" ph="select from users... " />
+            <marker date="1492714346901" expanded="true" signature="2728:2785" ph="select * fro... users" />
+            <marker date="1492714346901" expanded="true" signature="3365:3384" ph="select from users... " />
+            <marker date="1492714346901" expanded="true" signature="3365:3428" ph="select from users... " />
+            <marker date="1492714346901" expanded="true" signature="4036:4100" ph="select id fr... users" />
+            <marker date="1492714346901" expanded="true" signature="4669:4688" ph="select * fro... users" />
+            <marker date="1492714346901" expanded="true" signature="5357:5461" ph="INSERT into restrurantcomnents... " />
+            <marker date="1492714346901" expanded="true" signature="5985:6077" ph="select id, n... restrurants" />
+            <marker date="1492714346901" expanded="true" signature="5985:6083" ph="select id, n... restrurants" />
+            <marker date="1492714346901" expanded="true" signature="6256:6281" ph="select * fro... restrurants" />
+            <marker date="1492714346901" expanded="true" signature="7251:7355" ph="INSERT into restrurantcomments... " />
+            <marker date="1492714346901" expanded="true" signature="7955:8041" ph="INSERT INTO followship... " />
+            <marker date="1492714346901" expanded="true" signature="8480:8522" ph="SELECT follo... " />
+            <marker date="1492714346901" expanded="true" signature="8480:8559" ph="SELECT follo... followship" />
+            <marker date="1492714346901" expanded="true" signature="9152:9222" ph="SELECT * fro... followship" />
+            <marker date="1492714346901" expanded="true" signature="9890:9922" ph="SELECT users... users" />
+            <marker date="1492714346901" expanded="true" signature="9890:10307" ph="SELECT users... users" />
           </folding>
         </state>
       </provider>
@@ -909,17 +985,17 @@
         <state relative-caret-position="1026">
           <caret line="48" column="46" lean-forward="false" selection-start-line="48" selection-start-column="46" selection-end-line="48" selection-end-column="46" />
           <folding>
-            <marker date="1492625623247" expanded="true" signature="592:678" ph="insert into restrurants... " />
-            <marker date="1492625623247" expanded="true" signature="592:679" ph="insert into restrurants... " />
-            <marker date="1492625623247" expanded="true" signature="1202:1263" ph="insert into food... " />
-            <marker date="1492625623247" expanded="true" signature="1202:1276" ph="insert into food... " />
-            <marker date="1492625623247" expanded="true" signature="1666:1685" ph="select * fro... users" />
-            <marker date="1492625623247" expanded="true" signature="2320:2345" ph="select * fro... Restrurants" />
-            <marker date="1492625623247" expanded="true" signature="3047:3099" ph="select * fro... food" />
-            <marker date="1492625623247" expanded="true" signature="3047:3113" ph="select * fro... food" />
-            <marker date="1492625623247" expanded="true" signature="3730:3929" ph="select restr... restrurantComment" />
-            <marker date="1492625623247" expanded="true" signature="3730:4020" ph="select restr... restrurantComment" />
-            <marker date="1492625623247" expanded="true" signature="4774:4815" ph="delete from " />
+            <marker date="1492714654072" expanded="true" signature="592:678" ph="insert into restrurants... " />
+            <marker date="1492714654072" expanded="true" signature="592:679" ph="insert into restrurants... " />
+            <marker date="1492714654072" expanded="true" signature="1202:1263" ph="insert into food... " />
+            <marker date="1492714654072" expanded="true" signature="1202:1276" ph="insert into food... " />
+            <marker date="1492714654072" expanded="true" signature="1718:1737" ph="select * fro... users" />
+            <marker date="1492714654072" expanded="true" signature="2366:2391" ph="select * fro... Restrurants" />
+            <marker date="1492714654072" expanded="true" signature="3093:3145" ph="select * fro... food" />
+            <marker date="1492714654072" expanded="true" signature="3093:3159" ph="select * fro... food" />
+            <marker date="1492714654072" expanded="true" signature="3776:3975" ph="select restr... restrurantComment" />
+            <marker date="1492714654072" expanded="true" signature="3776:4066" ph="select restr... restrurantComment" />
+            <marker date="1492714654072" expanded="true" signature="4820:4861" ph="delete from " />
           </folding>
         </state>
       </provider>
@@ -929,9 +1005,12 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1845#1846#0" expanded="true" />
-            <element signature="e#1887#1888#0" expanded="true" />
+            <element signature="method#main#0;class#UI#0" expanded="false" />
+            <element signature="method#UIbody#0;class#UI#0" expanded="false" />
+            <element signature="method#login#0;class#UI#0" expanded="false" />
+            <element signature="method#findUser#0;class#UI#0" expanded="false" />
+            <element signature="method#register#0;class#UI#0" expanded="false" />
+            <element signature="method#delete#0;class#UI#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -941,8 +1020,28 @@
         <state relative-caret-position="594">
           <caret line="28" column="22" lean-forward="true" selection-start-line="9" selection-start-column="5" selection-end-line="62" selection-end-column="5" />
           <folding>
-            <element signature="e#1043#1044#0" expanded="true" />
-            <element signature="e#1078#1079#0" expanded="true" />
+            <element signature="e#325#326#0" expanded="false" />
+            <element signature="e#365#366#0" expanded="false" />
+            <element signature="e#400#401#0" expanded="false" />
+            <element signature="e#431#432#0" expanded="false" />
+            <element signature="e#481#482#0" expanded="false" />
+            <element signature="e#523#524#0" expanded="false" />
+            <element signature="e#559#560#0" expanded="false" />
+            <element signature="e#591#592#0" expanded="false" />
+            <element signature="e#640#641#0" expanded="false" />
+            <element signature="e#680#681#0" expanded="false" />
+            <element signature="e#715#716#0" expanded="false" />
+            <element signature="e#746#747#0" expanded="false" />
+            <element signature="e#794#795#0" expanded="false" />
+            <element signature="e#834#835#0" expanded="false" />
+            <element signature="e#869#870#0" expanded="false" />
+            <element signature="e#900#901#0" expanded="false" />
+            <element signature="e#956#957#0" expanded="false" />
+            <element signature="e#1004#1005#0" expanded="false" />
+            <element signature="e#1128#1129#0" expanded="false" />
+            <element signature="e#1170#1171#0" expanded="false" />
+            <element signature="e#1206#1207#0" expanded="false" />
+            <element signature="e#1238#1239#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -973,26 +1072,40 @@
         <state relative-caret-position="378">
           <caret line="22" column="20" lean-forward="false" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
           <folding>
-            <element signature="e#683#684#0" expanded="true" />
-            <element signature="e#725#726#0" expanded="true" />
-            <marker date="1492647275178" expanded="true" signature="1065:1167" ph="insert into users... " />
-            <marker date="1492647275178" expanded="true" signature="1065:1193" ph="insert into users... " />
-            <marker date="1492647275178" expanded="true" signature="2086:2149" ph="select from users... " />
-            <marker date="1492647275178" expanded="true" signature="2749:2768" ph="select from users... " />
-            <marker date="1492647275178" expanded="true" signature="2749:2812" ph="select from users... " />
-            <marker date="1492647275178" expanded="true" signature="3420:3484" ph="select id fr... users" />
-            <marker date="1492647275178" expanded="true" signature="4053:4072" ph="select * fro... users" />
-            <marker date="1492647275178" expanded="true" signature="4741:4845" ph="INSERT into restrurantcomnents... " />
-            <marker date="1492647275178" expanded="true" signature="5369:5461" ph="select id, n... restrurants" />
-            <marker date="1492647275178" expanded="true" signature="5369:5467" ph="select id, n... restrurants" />
-            <marker date="1492647275178" expanded="true" signature="5640:5665" ph="select * fro... restrurants" />
-            <marker date="1492647275178" expanded="true" signature="6635:6739" ph="INSERT into restrurantcomments... " />
-            <marker date="1492647275178" expanded="true" signature="7339:7425" ph="INSERT INTO followship... " />
-            <marker date="1492647275178" expanded="true" signature="7864:7906" ph="SELECT follo... " />
-            <marker date="1492647275178" expanded="true" signature="7864:7943" ph="SELECT follo... followship" />
-            <marker date="1492647275178" expanded="true" signature="8536:8606" ph="SELECT * fro... followship" />
-            <marker date="1492647275178" expanded="true" signature="9274:9306" ph="SELECT users... users" />
-            <marker date="1492647275178" expanded="true" signature="9274:9691" ph="SELECT users... users" />
+            <element signature="method#UserRepository#0;class#UserRepository#0" expanded="false" />
+            <element signature="method#save#0;class#UserRepository#0" expanded="false" />
+            <element signature="method#findbyUsername#0;class#UserRepository#0" expanded="false" />
+            <element signature="method#findbyUserId#0;class#UserRepository#0" expanded="false" />
+            <element signature="method#findbyLogin#0;class#UserRepository#0" expanded="false" />
+            <element signature="method#getUserId#0;class#UserRepository#0" expanded="false" />
+            <element signature="method#browseAllInfo#0;class#UserRepository#0" expanded="false" />
+            <element signature="method#addRestrurantComment#0;class#UserRepository#0" expanded="false" />
+            <element signature="method#searchForRestrurants#0;class#UserRepository#0" expanded="false" />
+            <element signature="method#saveRestrurantComments#0;class#UserRepository#0" expanded="false" />
+            <element signature="method#follow#0;class#UserRepository#0" expanded="false" />
+            <element signature="method#findFollowship#0;class#UserRepository#0" expanded="false" />
+            <element signature="method#browseFollowings#0;class#UserRepository#0" expanded="false" />
+            <element signature="method#watchOneFollowingComments_AllRestrurants#0;class#UserRepository#0" expanded="false" />
+            <element signature="method#watchAllFollowingComments_AllRestrurants#0;class#UserRepository#0" expanded="false" />
+            <marker date="1492714346901" expanded="true" signature="1065:1167" ph="insert into users... " />
+            <marker date="1492714346901" expanded="true" signature="1065:1193" ph="insert into users... " />
+            <marker date="1492714346901" expanded="true" signature="2086:2149" ph="select from users... " />
+            <marker date="1492714346901" expanded="true" signature="2728:2785" ph="select * fro... users" />
+            <marker date="1492714346901" expanded="true" signature="3365:3384" ph="select from users... " />
+            <marker date="1492714346901" expanded="true" signature="3365:3428" ph="select from users... " />
+            <marker date="1492714346901" expanded="true" signature="4036:4100" ph="select id fr... users" />
+            <marker date="1492714346901" expanded="true" signature="4669:4688" ph="select * fro... users" />
+            <marker date="1492714346901" expanded="true" signature="5357:5461" ph="INSERT into restrurantcomnents... " />
+            <marker date="1492714346901" expanded="true" signature="5985:6077" ph="select id, n... restrurants" />
+            <marker date="1492714346901" expanded="true" signature="5985:6083" ph="select id, n... restrurants" />
+            <marker date="1492714346901" expanded="true" signature="6256:6281" ph="select * fro... restrurants" />
+            <marker date="1492714346901" expanded="true" signature="7251:7355" ph="INSERT into restrurantcomments... " />
+            <marker date="1492714346901" expanded="true" signature="7955:8041" ph="INSERT INTO followship... " />
+            <marker date="1492714346901" expanded="true" signature="8480:8522" ph="SELECT follo... " />
+            <marker date="1492714346901" expanded="true" signature="8480:8559" ph="SELECT follo... followship" />
+            <marker date="1492714346901" expanded="true" signature="9152:9222" ph="SELECT * fro... followship" />
+            <marker date="1492714346901" expanded="true" signature="9890:9922" ph="SELECT users... users" />
+            <marker date="1492714346901" expanded="true" signature="9890:10307" ph="SELECT users... users" />
           </folding>
         </state>
       </provider>
@@ -1002,17 +1115,17 @@
         <state relative-caret-position="1026">
           <caret line="48" column="46" lean-forward="false" selection-start-line="48" selection-start-column="46" selection-end-line="48" selection-end-column="46" />
           <folding>
-            <marker date="1492625623247" expanded="true" signature="592:678" ph="insert into restrurants... " />
-            <marker date="1492625623247" expanded="true" signature="592:679" ph="insert into restrurants... " />
-            <marker date="1492625623247" expanded="true" signature="1202:1263" ph="insert into food... " />
-            <marker date="1492625623247" expanded="true" signature="1202:1276" ph="insert into food... " />
-            <marker date="1492625623247" expanded="true" signature="1666:1685" ph="select * fro... users" />
-            <marker date="1492625623247" expanded="true" signature="2320:2345" ph="select * fro... Restrurants" />
-            <marker date="1492625623247" expanded="true" signature="3047:3099" ph="select * fro... food" />
-            <marker date="1492625623247" expanded="true" signature="3047:3113" ph="select * fro... food" />
-            <marker date="1492625623247" expanded="true" signature="3730:3929" ph="select restr... restrurantComment" />
-            <marker date="1492625623247" expanded="true" signature="3730:4020" ph="select restr... restrurantComment" />
-            <marker date="1492625623247" expanded="true" signature="4774:4815" ph="delete from " />
+            <marker date="1492714654072" expanded="true" signature="592:678" ph="insert into restrurants... " />
+            <marker date="1492714654072" expanded="true" signature="592:679" ph="insert into restrurants... " />
+            <marker date="1492714654072" expanded="true" signature="1202:1263" ph="insert into food... " />
+            <marker date="1492714654072" expanded="true" signature="1202:1276" ph="insert into food... " />
+            <marker date="1492714654072" expanded="true" signature="1718:1737" ph="select * fro... users" />
+            <marker date="1492714654072" expanded="true" signature="2366:2391" ph="select * fro... Restrurants" />
+            <marker date="1492714654072" expanded="true" signature="3093:3145" ph="select * fro... food" />
+            <marker date="1492714654072" expanded="true" signature="3093:3159" ph="select * fro... food" />
+            <marker date="1492714654072" expanded="true" signature="3776:3975" ph="select restr... restrurantComment" />
+            <marker date="1492714654072" expanded="true" signature="3776:4066" ph="select restr... restrurantComment" />
+            <marker date="1492714654072" expanded="true" signature="4820:4861" ph="delete from " />
           </folding>
         </state>
       </provider>
@@ -1022,9 +1135,12 @@
         <state relative-caret-position="648">
           <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1845#1846#0" expanded="true" />
-            <element signature="e#1887#1888#0" expanded="true" />
+            <element signature="method#main#0;class#UI#0" expanded="false" />
+            <element signature="method#UIbody#0;class#UI#0" expanded="false" />
+            <element signature="method#login#0;class#UI#0" expanded="false" />
+            <element signature="method#findUser#0;class#UI#0" expanded="false" />
+            <element signature="method#register#0;class#UI#0" expanded="false" />
+            <element signature="method#delete#0;class#UI#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1034,26 +1150,40 @@
         <state relative-caret-position="378">
           <caret line="22" column="20" lean-forward="false" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
           <folding>
-            <element signature="e#683#684#0" expanded="true" />
-            <element signature="e#725#726#0" expanded="true" />
-            <marker date="1492647275178" expanded="true" signature="1065:1167" ph="insert into users... " />
-            <marker date="1492647275178" expanded="true" signature="1065:1193" ph="insert into users... " />
-            <marker date="1492647275178" expanded="true" signature="2086:2149" ph="select from users... " />
-            <marker date="1492647275178" expanded="true" signature="2749:2768" ph="select from users... " />
-            <marker date="1492647275178" expanded="true" signature="2749:2812" ph="select from users... " />
-            <marker date="1492647275178" expanded="true" signature="3420:3484" ph="select id fr... users" />
-            <marker date="1492647275178" expanded="true" signature="4053:4072" ph="select * fro... users" />
-            <marker date="1492647275178" expanded="true" signature="4741:4845" ph="INSERT into restrurantcomnents... " />
-            <marker date="1492647275178" expanded="true" signature="5369:5461" ph="select id, n... restrurants" />
-            <marker date="1492647275178" expanded="true" signature="5369:5467" ph="select id, n... restrurants" />
-            <marker date="1492647275178" expanded="true" signature="5640:5665" ph="select * fro... restrurants" />
-            <marker date="1492647275178" expanded="true" signature="6635:6739" ph="INSERT into restrurantcomments... " />
-            <marker date="1492647275178" expanded="true" signature="7339:7425" ph="INSERT INTO followship... " />
-            <marker date="1492647275178" expanded="true" signature="7864:7906" ph="SELECT follo... " />
-            <marker date="1492647275178" expanded="true" signature="7864:7943" ph="SELECT follo... followship" />
-            <marker date="1492647275178" expanded="true" signature="8536:8606" ph="SELECT * fro... followship" />
-            <marker date="1492647275178" expanded="true" signature="9274:9306" ph="SELECT users... users" />
-            <marker date="1492647275178" expanded="true" signature="9274:9691" ph="SELECT users... users" />
+            <element signature="method#UserRepository#0;class#UserRepository#0" expanded="false" />
+            <element signature="method#save#0;class#UserRepository#0" expanded="false" />
+            <element signature="method#findbyUsername#0;class#UserRepository#0" expanded="false" />
+            <element signature="method#findbyUserId#0;class#UserRepository#0" expanded="false" />
+            <element signature="method#findbyLogin#0;class#UserRepository#0" expanded="false" />
+            <element signature="method#getUserId#0;class#UserRepository#0" expanded="false" />
+            <element signature="method#browseAllInfo#0;class#UserRepository#0" expanded="false" />
+            <element signature="method#addRestrurantComment#0;class#UserRepository#0" expanded="false" />
+            <element signature="method#searchForRestrurants#0;class#UserRepository#0" expanded="false" />
+            <element signature="method#saveRestrurantComments#0;class#UserRepository#0" expanded="false" />
+            <element signature="method#follow#0;class#UserRepository#0" expanded="false" />
+            <element signature="method#findFollowship#0;class#UserRepository#0" expanded="false" />
+            <element signature="method#browseFollowings#0;class#UserRepository#0" expanded="false" />
+            <element signature="method#watchOneFollowingComments_AllRestrurants#0;class#UserRepository#0" expanded="false" />
+            <element signature="method#watchAllFollowingComments_AllRestrurants#0;class#UserRepository#0" expanded="false" />
+            <marker date="1492714346901" expanded="true" signature="1065:1167" ph="insert into users... " />
+            <marker date="1492714346901" expanded="true" signature="1065:1193" ph="insert into users... " />
+            <marker date="1492714346901" expanded="true" signature="2086:2149" ph="select from users... " />
+            <marker date="1492714346901" expanded="true" signature="2728:2785" ph="select * fro... users" />
+            <marker date="1492714346901" expanded="true" signature="3365:3384" ph="select from users... " />
+            <marker date="1492714346901" expanded="true" signature="3365:3428" ph="select from users... " />
+            <marker date="1492714346901" expanded="true" signature="4036:4100" ph="select id fr... users" />
+            <marker date="1492714346901" expanded="true" signature="4669:4688" ph="select * fro... users" />
+            <marker date="1492714346901" expanded="true" signature="5357:5461" ph="INSERT into restrurantcomnents... " />
+            <marker date="1492714346901" expanded="true" signature="5985:6077" ph="select id, n... restrurants" />
+            <marker date="1492714346901" expanded="true" signature="5985:6083" ph="select id, n... restrurants" />
+            <marker date="1492714346901" expanded="true" signature="6256:6281" ph="select * fro... restrurants" />
+            <marker date="1492714346901" expanded="true" signature="7251:7355" ph="INSERT into restrurantcomments... " />
+            <marker date="1492714346901" expanded="true" signature="7955:8041" ph="INSERT INTO followship... " />
+            <marker date="1492714346901" expanded="true" signature="8480:8522" ph="SELECT follo... " />
+            <marker date="1492714346901" expanded="true" signature="8480:8559" ph="SELECT follo... followship" />
+            <marker date="1492714346901" expanded="true" signature="9152:9222" ph="SELECT * fro... followship" />
+            <marker date="1492714346901" expanded="true" signature="9890:9922" ph="SELECT users... users" />
+            <marker date="1492714346901" expanded="true" signature="9890:10307" ph="SELECT users... users" />
           </folding>
         </state>
       </provider>
@@ -1063,17 +1193,17 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1492625623247" expanded="true" signature="592:678" ph="insert into restrurants... " />
-            <marker date="1492625623247" expanded="true" signature="592:679" ph="insert into restrurants... " />
-            <marker date="1492625623247" expanded="true" signature="1202:1263" ph="insert into food... " />
-            <marker date="1492625623247" expanded="true" signature="1202:1276" ph="insert into food... " />
-            <marker date="1492625623247" expanded="true" signature="1666:1685" ph="select * fro... users" />
-            <marker date="1492625623247" expanded="true" signature="2320:2345" ph="select * fro... Restrurants" />
-            <marker date="1492625623247" expanded="true" signature="3047:3099" ph="select * fro... food" />
-            <marker date="1492625623247" expanded="true" signature="3047:3113" ph="select * fro... food" />
-            <marker date="1492625623247" expanded="true" signature="3730:3929" ph="select restr... restrurantComment" />
-            <marker date="1492625623247" expanded="true" signature="3730:4020" ph="select restr... restrurantComment" />
-            <marker date="1492625623247" expanded="true" signature="4774:4815" ph="delete from " />
+            <marker date="1492714654072" expanded="true" signature="592:678" ph="insert into restrurants... " />
+            <marker date="1492714654072" expanded="true" signature="592:679" ph="insert into restrurants... " />
+            <marker date="1492714654072" expanded="true" signature="1202:1263" ph="insert into food... " />
+            <marker date="1492714654072" expanded="true" signature="1202:1276" ph="insert into food... " />
+            <marker date="1492714654072" expanded="true" signature="1718:1737" ph="select * fro... users" />
+            <marker date="1492714654072" expanded="true" signature="2366:2391" ph="select * fro... Restrurants" />
+            <marker date="1492714654072" expanded="true" signature="3093:3145" ph="select * fro... food" />
+            <marker date="1492714654072" expanded="true" signature="3093:3159" ph="select * fro... food" />
+            <marker date="1492714654072" expanded="true" signature="3776:3975" ph="select restr... restrurantComment" />
+            <marker date="1492714654072" expanded="true" signature="3776:4066" ph="select restr... restrurantComment" />
+            <marker date="1492714654072" expanded="true" signature="4820:4861" ph="delete from " />
           </folding>
         </state>
       </provider>
@@ -1083,9 +1213,12 @@
         <state relative-caret-position="3240">
           <caret line="120" column="39" lean-forward="false" selection-start-line="120" selection-start-column="39" selection-end-line="120" selection-end-column="39" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1845#1846#0" expanded="true" />
-            <element signature="e#1887#1888#0" expanded="true" />
+            <element signature="method#main#0;class#UI#0" expanded="false" />
+            <element signature="method#UIbody#0;class#UI#0" expanded="false" />
+            <element signature="method#login#0;class#UI#0" expanded="false" />
+            <element signature="method#findUser#0;class#UI#0" expanded="false" />
+            <element signature="method#register#0;class#UI#0" expanded="false" />
+            <element signature="method#delete#0;class#UI#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1095,39 +1228,53 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#683#684#0" expanded="true" />
-            <element signature="e#725#726#0" expanded="true" />
-            <marker date="1492647275178" expanded="true" signature="1065:1167" ph="insert into users... " />
-            <marker date="1492647275178" expanded="true" signature="1065:1193" ph="insert into users... " />
-            <marker date="1492647275178" expanded="true" signature="2086:2149" ph="select from users... " />
-            <marker date="1492647275178" expanded="true" signature="2749:2768" ph="select from users... " />
-            <marker date="1492647275178" expanded="true" signature="2749:2812" ph="select from users... " />
-            <marker date="1492647275178" expanded="true" signature="3420:3484" ph="select id fr... users" />
-            <marker date="1492647275178" expanded="true" signature="4053:4072" ph="select * fro... users" />
-            <marker date="1492647275178" expanded="true" signature="4741:4845" ph="INSERT into restrurantcomnents... " />
-            <marker date="1492647275178" expanded="true" signature="5369:5461" ph="select id, n... restrurants" />
-            <marker date="1492647275178" expanded="true" signature="5369:5467" ph="select id, n... restrurants" />
-            <marker date="1492647275178" expanded="true" signature="5640:5665" ph="select * fro... restrurants" />
-            <marker date="1492647275178" expanded="true" signature="6635:6739" ph="INSERT into restrurantcomments... " />
-            <marker date="1492647275178" expanded="true" signature="7339:7425" ph="INSERT INTO followship... " />
-            <marker date="1492647275178" expanded="true" signature="7864:7906" ph="SELECT follo... " />
-            <marker date="1492647275178" expanded="true" signature="7864:7943" ph="SELECT follo... followship" />
-            <marker date="1492647275178" expanded="true" signature="8536:8606" ph="SELECT * fro... followship" />
-            <marker date="1492647275178" expanded="true" signature="9274:9306" ph="SELECT users... users" />
-            <marker date="1492647275178" expanded="true" signature="9274:9691" ph="SELECT users... users" />
+            <element signature="method#UserRepository#0;class#UserRepository#0" expanded="false" />
+            <element signature="method#save#0;class#UserRepository#0" expanded="false" />
+            <element signature="method#findbyUsername#0;class#UserRepository#0" expanded="false" />
+            <element signature="method#findbyUserId#0;class#UserRepository#0" expanded="false" />
+            <element signature="method#findbyLogin#0;class#UserRepository#0" expanded="false" />
+            <element signature="method#getUserId#0;class#UserRepository#0" expanded="false" />
+            <element signature="method#browseAllInfo#0;class#UserRepository#0" expanded="false" />
+            <element signature="method#addRestrurantComment#0;class#UserRepository#0" expanded="false" />
+            <element signature="method#searchForRestrurants#0;class#UserRepository#0" expanded="false" />
+            <element signature="method#saveRestrurantComments#0;class#UserRepository#0" expanded="false" />
+            <element signature="method#follow#0;class#UserRepository#0" expanded="false" />
+            <element signature="method#findFollowship#0;class#UserRepository#0" expanded="false" />
+            <element signature="method#browseFollowings#0;class#UserRepository#0" expanded="false" />
+            <element signature="method#watchOneFollowingComments_AllRestrurants#0;class#UserRepository#0" expanded="false" />
+            <element signature="method#watchAllFollowingComments_AllRestrurants#0;class#UserRepository#0" expanded="false" />
+            <marker date="1492714346901" expanded="true" signature="1065:1167" ph="insert into users... " />
+            <marker date="1492714346901" expanded="true" signature="1065:1193" ph="insert into users... " />
+            <marker date="1492714346901" expanded="true" signature="2086:2149" ph="select from users... " />
+            <marker date="1492714346901" expanded="true" signature="2728:2785" ph="select * fro... users" />
+            <marker date="1492714346901" expanded="true" signature="3365:3384" ph="select from users... " />
+            <marker date="1492714346901" expanded="true" signature="3365:3428" ph="select from users... " />
+            <marker date="1492714346901" expanded="true" signature="4036:4100" ph="select id fr... users" />
+            <marker date="1492714346901" expanded="true" signature="4669:4688" ph="select * fro... users" />
+            <marker date="1492714346901" expanded="true" signature="5357:5461" ph="INSERT into restrurantcomnents... " />
+            <marker date="1492714346901" expanded="true" signature="5985:6077" ph="select id, n... restrurants" />
+            <marker date="1492714346901" expanded="true" signature="5985:6083" ph="select id, n... restrurants" />
+            <marker date="1492714346901" expanded="true" signature="6256:6281" ph="select * fro... restrurants" />
+            <marker date="1492714346901" expanded="true" signature="7251:7355" ph="INSERT into restrurantcomments... " />
+            <marker date="1492714346901" expanded="true" signature="7955:8041" ph="INSERT INTO followship... " />
+            <marker date="1492714346901" expanded="true" signature="8480:8522" ph="SELECT follo... " />
+            <marker date="1492714346901" expanded="true" signature="8480:8559" ph="SELECT follo... followship" />
+            <marker date="1492714346901" expanded="true" signature="9152:9222" ph="SELECT * fro... followship" />
+            <marker date="1492714346901" expanded="true" signature="9890:9922" ph="SELECT users... users" />
+            <marker date="1492714346901" expanded="true" signature="9890:10307" ph="SELECT users... users" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="dbDummy://dbtable:/603bee9c/d3881873-bed5-4844-808c-3686fb33ba08/yelp.users">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
       <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
@@ -1136,9 +1283,12 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1845#1846#0" expanded="true" />
-            <element signature="e#1887#1888#0" expanded="true" />
+            <element signature="method#main#0;class#UI#0" expanded="false" />
+            <element signature="method#UIbody#0;class#UI#0" expanded="false" />
+            <element signature="method#login#0;class#UI#0" expanded="false" />
+            <element signature="method#findUser#0;class#UI#0" expanded="false" />
+            <element signature="method#register#0;class#UI#0" expanded="false" />
+            <element signature="method#delete#0;class#UI#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1148,26 +1298,40 @@
         <state relative-caret-position="1836">
           <caret line="76" column="21" lean-forward="true" selection-start-line="76" selection-start-column="21" selection-end-line="76" selection-end-column="21" />
           <folding>
-            <element signature="e#683#684#0" expanded="true" />
-            <element signature="e#725#726#0" expanded="true" />
-            <marker date="1492647275178" expanded="true" signature="1065:1167" ph="insert into users... " />
-            <marker date="1492647275178" expanded="true" signature="1065:1193" ph="insert into users... " />
-            <marker date="1492647275178" expanded="true" signature="2086:2149" ph="select from users... " />
-            <marker date="1492647275178" expanded="true" signature="2749:2768" ph="select from users... " />
-            <marker date="1492647275178" expanded="true" signature="2749:2812" ph="select from users... " />
-            <marker date="1492647275178" expanded="true" signature="3420:3484" ph="select id fr... users" />
-            <marker date="1492647275178" expanded="true" signature="4053:4072" ph="select * fro... users" />
-            <marker date="1492647275178" expanded="true" signature="4741:4845" ph="INSERT into restrurantcomnents... " />
-            <marker date="1492647275178" expanded="true" signature="5369:5461" ph="select id, n... restrurants" />
-            <marker date="1492647275178" expanded="true" signature="5369:5467" ph="select id, n... restrurants" />
-            <marker date="1492647275178" expanded="true" signature="5640:5665" ph="select * fro... restrurants" />
-            <marker date="1492647275178" expanded="true" signature="6635:6739" ph="INSERT into restrurantcomments... " />
-            <marker date="1492647275178" expanded="true" signature="7339:7425" ph="INSERT INTO followship... " />
-            <marker date="1492647275178" expanded="true" signature="7864:7906" ph="SELECT follo... " />
-            <marker date="1492647275178" expanded="true" signature="7864:7943" ph="SELECT follo... followship" />
-            <marker date="1492647275178" expanded="true" signature="8536:8606" ph="SELECT * fro... followship" />
-            <marker date="1492647275178" expanded="true" signature="9274:9306" ph="SELECT users... users" />
-            <marker date="1492647275178" expanded="true" signature="9274:9691" ph="SELECT users... users" />
+            <element signature="method#UserRepository#0;class#UserRepository#0" expanded="false" />
+            <element signature="method#save#0;class#UserRepository#0" expanded="false" />
+            <element signature="method#findbyUsername#0;class#UserRepository#0" expanded="false" />
+            <element signature="method#findbyUserId#0;class#UserRepository#0" expanded="false" />
+            <element signature="method#findbyLogin#0;class#UserRepository#0" expanded="false" />
+            <element signature="method#getUserId#0;class#UserRepository#0" expanded="false" />
+            <element signature="method#browseAllInfo#0;class#UserRepository#0" expanded="false" />
+            <element signature="method#addRestrurantComment#0;class#UserRepository#0" expanded="false" />
+            <element signature="method#searchForRestrurants#0;class#UserRepository#0" expanded="false" />
+            <element signature="method#saveRestrurantComments#0;class#UserRepository#0" expanded="false" />
+            <element signature="method#follow#0;class#UserRepository#0" expanded="false" />
+            <element signature="method#findFollowship#0;class#UserRepository#0" expanded="false" />
+            <element signature="method#browseFollowings#0;class#UserRepository#0" expanded="false" />
+            <element signature="method#watchOneFollowingComments_AllRestrurants#0;class#UserRepository#0" expanded="false" />
+            <element signature="method#watchAllFollowingComments_AllRestrurants#0;class#UserRepository#0" expanded="false" />
+            <marker date="1492714346901" expanded="true" signature="1065:1167" ph="insert into users... " />
+            <marker date="1492714346901" expanded="true" signature="1065:1193" ph="insert into users... " />
+            <marker date="1492714346901" expanded="true" signature="2086:2149" ph="select from users... " />
+            <marker date="1492714346901" expanded="true" signature="2728:2785" ph="select * fro... users" />
+            <marker date="1492714346901" expanded="true" signature="3365:3384" ph="select from users... " />
+            <marker date="1492714346901" expanded="true" signature="3365:3428" ph="select from users... " />
+            <marker date="1492714346901" expanded="true" signature="4036:4100" ph="select id fr... users" />
+            <marker date="1492714346901" expanded="true" signature="4669:4688" ph="select * fro... users" />
+            <marker date="1492714346901" expanded="true" signature="5357:5461" ph="INSERT into restrurantcomnents... " />
+            <marker date="1492714346901" expanded="true" signature="5985:6077" ph="select id, n... restrurants" />
+            <marker date="1492714346901" expanded="true" signature="5985:6083" ph="select id, n... restrurants" />
+            <marker date="1492714346901" expanded="true" signature="6256:6281" ph="select * fro... restrurants" />
+            <marker date="1492714346901" expanded="true" signature="7251:7355" ph="INSERT into restrurantcomments... " />
+            <marker date="1492714346901" expanded="true" signature="7955:8041" ph="INSERT INTO followship... " />
+            <marker date="1492714346901" expanded="true" signature="8480:8522" ph="SELECT follo... " />
+            <marker date="1492714346901" expanded="true" signature="8480:8559" ph="SELECT follo... followship" />
+            <marker date="1492714346901" expanded="true" signature="9152:9222" ph="SELECT * fro... followship" />
+            <marker date="1492714346901" expanded="true" signature="9890:9922" ph="SELECT users... users" />
+            <marker date="1492714346901" expanded="true" signature="9890:10307" ph="SELECT users... users" />
           </folding>
         </state>
       </provider>
@@ -1185,9 +1349,12 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1845#1846#0" expanded="true" />
-            <element signature="e#1887#1888#0" expanded="true" />
+            <element signature="method#main#0;class#UI#0" expanded="false" />
+            <element signature="method#UIbody#0;class#UI#0" expanded="false" />
+            <element signature="method#login#0;class#UI#0" expanded="false" />
+            <element signature="method#findUser#0;class#UI#0" expanded="false" />
+            <element signature="method#register#0;class#UI#0" expanded="false" />
+            <element signature="method#delete#0;class#UI#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1197,26 +1364,40 @@
         <state relative-caret-position="486">
           <caret line="26" column="59" lean-forward="false" selection-start-line="26" selection-start-column="22" selection-end-line="27" selection-end-column="68" />
           <folding>
-            <element signature="e#683#684#0" expanded="true" />
-            <element signature="e#725#726#0" expanded="true" />
-            <marker date="1492647275178" expanded="true" signature="1065:1167" ph="insert into users... " />
-            <marker date="1492647275178" expanded="true" signature="1065:1193" ph="insert into users... " />
-            <marker date="1492647275178" expanded="true" signature="2086:2149" ph="select from users... " />
-            <marker date="1492647275178" expanded="true" signature="2749:2768" ph="select from users... " />
-            <marker date="1492647275178" expanded="true" signature="2749:2812" ph="select from users... " />
-            <marker date="1492647275178" expanded="true" signature="3420:3484" ph="select id fr... users" />
-            <marker date="1492647275178" expanded="true" signature="4053:4072" ph="select * fro... users" />
-            <marker date="1492647275178" expanded="true" signature="4741:4845" ph="INSERT into restrurantcomnents... " />
-            <marker date="1492647275178" expanded="true" signature="5369:5461" ph="select id, n... restrurants" />
-            <marker date="1492647275178" expanded="true" signature="5369:5467" ph="select id, n... restrurants" />
-            <marker date="1492647275178" expanded="true" signature="5640:5665" ph="select * fro... restrurants" />
-            <marker date="1492647275178" expanded="true" signature="6635:6739" ph="INSERT into restrurantcomments... " />
-            <marker date="1492647275178" expanded="true" signature="7339:7425" ph="INSERT INTO followship... " />
-            <marker date="1492647275178" expanded="true" signature="7864:7906" ph="SELECT follo... " />
-            <marker date="1492647275178" expanded="true" signature="7864:7943" ph="SELECT follo... followship" />
-            <marker date="1492647275178" expanded="true" signature="8536:8606" ph="SELECT * fro... followship" />
-            <marker date="1492647275178" expanded="true" signature="9274:9306" ph="SELECT users... users" />
-            <marker date="1492647275178" expanded="true" signature="9274:9691" ph="SELECT users... users" />
+            <element signature="method#UserRepository#0;class#UserRepository#0" expanded="false" />
+            <element signature="method#save#0;class#UserRepository#0" expanded="false" />
+            <element signature="method#findbyUsername#0;class#UserRepository#0" expanded="false" />
+            <element signature="method#findbyUserId#0;class#UserRepository#0" expanded="false" />
+            <element signature="method#findbyLogin#0;class#UserRepository#0" expanded="false" />
+            <element signature="method#getUserId#0;class#UserRepository#0" expanded="false" />
+            <element signature="method#browseAllInfo#0;class#UserRepository#0" expanded="false" />
+            <element signature="method#addRestrurantComment#0;class#UserRepository#0" expanded="false" />
+            <element signature="method#searchForRestrurants#0;class#UserRepository#0" expanded="false" />
+            <element signature="method#saveRestrurantComments#0;class#UserRepository#0" expanded="false" />
+            <element signature="method#follow#0;class#UserRepository#0" expanded="false" />
+            <element signature="method#findFollowship#0;class#UserRepository#0" expanded="false" />
+            <element signature="method#browseFollowings#0;class#UserRepository#0" expanded="false" />
+            <element signature="method#watchOneFollowingComments_AllRestrurants#0;class#UserRepository#0" expanded="false" />
+            <element signature="method#watchAllFollowingComments_AllRestrurants#0;class#UserRepository#0" expanded="false" />
+            <marker date="1492714346901" expanded="true" signature="1065:1167" ph="insert into users... " />
+            <marker date="1492714346901" expanded="true" signature="1065:1193" ph="insert into users... " />
+            <marker date="1492714346901" expanded="true" signature="2086:2149" ph="select from users... " />
+            <marker date="1492714346901" expanded="true" signature="2728:2785" ph="select * fro... users" />
+            <marker date="1492714346901" expanded="true" signature="3365:3384" ph="select from users... " />
+            <marker date="1492714346901" expanded="true" signature="3365:3428" ph="select from users... " />
+            <marker date="1492714346901" expanded="true" signature="4036:4100" ph="select id fr... users" />
+            <marker date="1492714346901" expanded="true" signature="4669:4688" ph="select * fro... users" />
+            <marker date="1492714346901" expanded="true" signature="5357:5461" ph="INSERT into restrurantcomnents... " />
+            <marker date="1492714346901" expanded="true" signature="5985:6077" ph="select id, n... restrurants" />
+            <marker date="1492714346901" expanded="true" signature="5985:6083" ph="select id, n... restrurants" />
+            <marker date="1492714346901" expanded="true" signature="6256:6281" ph="select * fro... restrurants" />
+            <marker date="1492714346901" expanded="true" signature="7251:7355" ph="INSERT into restrurantcomments... " />
+            <marker date="1492714346901" expanded="true" signature="7955:8041" ph="INSERT INTO followship... " />
+            <marker date="1492714346901" expanded="true" signature="8480:8522" ph="SELECT follo... " />
+            <marker date="1492714346901" expanded="true" signature="8480:8559" ph="SELECT follo... followship" />
+            <marker date="1492714346901" expanded="true" signature="9152:9222" ph="SELECT * fro... followship" />
+            <marker date="1492714346901" expanded="true" signature="9890:9922" ph="SELECT users... users" />
+            <marker date="1492714346901" expanded="true" signature="9890:10307" ph="SELECT users... users" />
           </folding>
         </state>
       </provider>
@@ -1234,9 +1415,12 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1845#1846#0" expanded="true" />
-            <element signature="e#1887#1888#0" expanded="true" />
+            <element signature="method#main#0;class#UI#0" expanded="false" />
+            <element signature="method#UIbody#0;class#UI#0" expanded="false" />
+            <element signature="method#login#0;class#UI#0" expanded="false" />
+            <element signature="method#findUser#0;class#UI#0" expanded="false" />
+            <element signature="method#register#0;class#UI#0" expanded="false" />
+            <element signature="method#delete#0;class#UI#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1246,26 +1430,40 @@
         <state relative-caret-position="2430">
           <caret line="98" column="32" lean-forward="false" selection-start-line="98" selection-start-column="32" selection-end-line="98" selection-end-column="32" />
           <folding>
-            <element signature="e#683#684#0" expanded="true" />
-            <element signature="e#725#726#0" expanded="true" />
-            <marker date="1492647275178" expanded="true" signature="1065:1167" ph="insert into users... " />
-            <marker date="1492647275178" expanded="true" signature="1065:1193" ph="insert into users... " />
-            <marker date="1492647275178" expanded="true" signature="2086:2149" ph="select from users... " />
-            <marker date="1492647275178" expanded="true" signature="2749:2768" ph="select from users... " />
-            <marker date="1492647275178" expanded="true" signature="2749:2812" ph="select from users... " />
-            <marker date="1492647275178" expanded="true" signature="3420:3484" ph="select id fr... users" />
-            <marker date="1492647275178" expanded="true" signature="4053:4072" ph="select * fro... users" />
-            <marker date="1492647275178" expanded="true" signature="4741:4845" ph="INSERT into restrurantcomnents... " />
-            <marker date="1492647275178" expanded="true" signature="5369:5461" ph="select id, n... restrurants" />
-            <marker date="1492647275178" expanded="true" signature="5369:5467" ph="select id, n... restrurants" />
-            <marker date="1492647275178" expanded="true" signature="5640:5665" ph="select * fro... restrurants" />
-            <marker date="1492647275178" expanded="true" signature="6635:6739" ph="INSERT into restrurantcomments... " />
-            <marker date="1492647275178" expanded="true" signature="7339:7425" ph="INSERT INTO followship... " />
-            <marker date="1492647275178" expanded="true" signature="7864:7906" ph="SELECT follo... " />
-            <marker date="1492647275178" expanded="true" signature="7864:7943" ph="SELECT follo... followship" />
-            <marker date="1492647275178" expanded="true" signature="8536:8606" ph="SELECT * fro... followship" />
-            <marker date="1492647275178" expanded="true" signature="9274:9306" ph="SELECT users... users" />
-            <marker date="1492647275178" expanded="true" signature="9274:9691" ph="SELECT users... users" />
+            <element signature="method#UserRepository#0;class#UserRepository#0" expanded="false" />
+            <element signature="method#save#0;class#UserRepository#0" expanded="false" />
+            <element signature="method#findbyUsername#0;class#UserRepository#0" expanded="false" />
+            <element signature="method#findbyUserId#0;class#UserRepository#0" expanded="false" />
+            <element signature="method#findbyLogin#0;class#UserRepository#0" expanded="false" />
+            <element signature="method#getUserId#0;class#UserRepository#0" expanded="false" />
+            <element signature="method#browseAllInfo#0;class#UserRepository#0" expanded="false" />
+            <element signature="method#addRestrurantComment#0;class#UserRepository#0" expanded="false" />
+            <element signature="method#searchForRestrurants#0;class#UserRepository#0" expanded="false" />
+            <element signature="method#saveRestrurantComments#0;class#UserRepository#0" expanded="false" />
+            <element signature="method#follow#0;class#UserRepository#0" expanded="false" />
+            <element signature="method#findFollowship#0;class#UserRepository#0" expanded="false" />
+            <element signature="method#browseFollowings#0;class#UserRepository#0" expanded="false" />
+            <element signature="method#watchOneFollowingComments_AllRestrurants#0;class#UserRepository#0" expanded="false" />
+            <element signature="method#watchAllFollowingComments_AllRestrurants#0;class#UserRepository#0" expanded="false" />
+            <marker date="1492714346901" expanded="true" signature="1065:1167" ph="insert into users... " />
+            <marker date="1492714346901" expanded="true" signature="1065:1193" ph="insert into users... " />
+            <marker date="1492714346901" expanded="true" signature="2086:2149" ph="select from users... " />
+            <marker date="1492714346901" expanded="true" signature="2728:2785" ph="select * fro... users" />
+            <marker date="1492714346901" expanded="true" signature="3365:3384" ph="select from users... " />
+            <marker date="1492714346901" expanded="true" signature="3365:3428" ph="select from users... " />
+            <marker date="1492714346901" expanded="true" signature="4036:4100" ph="select id fr... users" />
+            <marker date="1492714346901" expanded="true" signature="4669:4688" ph="select * fro... users" />
+            <marker date="1492714346901" expanded="true" signature="5357:5461" ph="INSERT into restrurantcomnents... " />
+            <marker date="1492714346901" expanded="true" signature="5985:6077" ph="select id, n... restrurants" />
+            <marker date="1492714346901" expanded="true" signature="5985:6083" ph="select id, n... restrurants" />
+            <marker date="1492714346901" expanded="true" signature="6256:6281" ph="select * fro... restrurants" />
+            <marker date="1492714346901" expanded="true" signature="7251:7355" ph="INSERT into restrurantcomments... " />
+            <marker date="1492714346901" expanded="true" signature="7955:8041" ph="INSERT INTO followship... " />
+            <marker date="1492714346901" expanded="true" signature="8480:8522" ph="SELECT follo... " />
+            <marker date="1492714346901" expanded="true" signature="8480:8559" ph="SELECT follo... followship" />
+            <marker date="1492714346901" expanded="true" signature="9152:9222" ph="SELECT * fro... followship" />
+            <marker date="1492714346901" expanded="true" signature="9890:9922" ph="SELECT users... users" />
+            <marker date="1492714346901" expanded="true" signature="9890:10307" ph="SELECT users... users" />
           </folding>
         </state>
       </provider>
@@ -1275,9 +1473,12 @@
         <state relative-caret-position="1809">
           <caret line="67" column="0" lean-forward="false" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1845#1846#0" expanded="true" />
-            <element signature="e#1887#1888#0" expanded="true" />
+            <element signature="method#main#0;class#UI#0" expanded="false" />
+            <element signature="method#UIbody#0;class#UI#0" expanded="false" />
+            <element signature="method#login#0;class#UI#0" expanded="false" />
+            <element signature="method#findUser#0;class#UI#0" expanded="false" />
+            <element signature="method#register#0;class#UI#0" expanded="false" />
+            <element signature="method#delete#0;class#UI#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1287,26 +1488,40 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#683#684#0" expanded="true" />
-            <element signature="e#725#726#0" expanded="true" />
-            <marker date="1492647275178" expanded="true" signature="1065:1167" ph="insert into users... " />
-            <marker date="1492647275178" expanded="true" signature="1065:1193" ph="insert into users... " />
-            <marker date="1492647275178" expanded="true" signature="2086:2149" ph="select from users... " />
-            <marker date="1492647275178" expanded="true" signature="2749:2768" ph="select from users... " />
-            <marker date="1492647275178" expanded="true" signature="2749:2812" ph="select from users... " />
-            <marker date="1492647275178" expanded="true" signature="3420:3484" ph="select id fr... users" />
-            <marker date="1492647275178" expanded="true" signature="4053:4072" ph="select * fro... users" />
-            <marker date="1492647275178" expanded="true" signature="4741:4845" ph="INSERT into restrurantcomnents... " />
-            <marker date="1492647275178" expanded="true" signature="5369:5461" ph="select id, n... restrurants" />
-            <marker date="1492647275178" expanded="true" signature="5369:5467" ph="select id, n... restrurants" />
-            <marker date="1492647275178" expanded="true" signature="5640:5665" ph="select * fro... restrurants" />
-            <marker date="1492647275178" expanded="true" signature="6635:6739" ph="INSERT into restrurantcomments... " />
-            <marker date="1492647275178" expanded="true" signature="7339:7425" ph="INSERT INTO followship... " />
-            <marker date="1492647275178" expanded="true" signature="7864:7906" ph="SELECT follo... " />
-            <marker date="1492647275178" expanded="true" signature="7864:7943" ph="SELECT follo... followship" />
-            <marker date="1492647275178" expanded="true" signature="8536:8606" ph="SELECT * fro... followship" />
-            <marker date="1492647275178" expanded="true" signature="9274:9306" ph="SELECT users... users" />
-            <marker date="1492647275178" expanded="true" signature="9274:9691" ph="SELECT users... users" />
+            <element signature="method#UserRepository#0;class#UserRepository#0" expanded="false" />
+            <element signature="method#save#0;class#UserRepository#0" expanded="false" />
+            <element signature="method#findbyUsername#0;class#UserRepository#0" expanded="false" />
+            <element signature="method#findbyUserId#0;class#UserRepository#0" expanded="false" />
+            <element signature="method#findbyLogin#0;class#UserRepository#0" expanded="false" />
+            <element signature="method#getUserId#0;class#UserRepository#0" expanded="false" />
+            <element signature="method#browseAllInfo#0;class#UserRepository#0" expanded="false" />
+            <element signature="method#addRestrurantComment#0;class#UserRepository#0" expanded="false" />
+            <element signature="method#searchForRestrurants#0;class#UserRepository#0" expanded="false" />
+            <element signature="method#saveRestrurantComments#0;class#UserRepository#0" expanded="false" />
+            <element signature="method#follow#0;class#UserRepository#0" expanded="false" />
+            <element signature="method#findFollowship#0;class#UserRepository#0" expanded="false" />
+            <element signature="method#browseFollowings#0;class#UserRepository#0" expanded="false" />
+            <element signature="method#watchOneFollowingComments_AllRestrurants#0;class#UserRepository#0" expanded="false" />
+            <element signature="method#watchAllFollowingComments_AllRestrurants#0;class#UserRepository#0" expanded="false" />
+            <marker date="1492714346901" expanded="true" signature="1065:1167" ph="insert into users... " />
+            <marker date="1492714346901" expanded="true" signature="1065:1193" ph="insert into users... " />
+            <marker date="1492714346901" expanded="true" signature="2086:2149" ph="select from users... " />
+            <marker date="1492714346901" expanded="true" signature="2728:2785" ph="select * fro... users" />
+            <marker date="1492714346901" expanded="true" signature="3365:3384" ph="select from users... " />
+            <marker date="1492714346901" expanded="true" signature="3365:3428" ph="select from users... " />
+            <marker date="1492714346901" expanded="true" signature="4036:4100" ph="select id fr... users" />
+            <marker date="1492714346901" expanded="true" signature="4669:4688" ph="select * fro... users" />
+            <marker date="1492714346901" expanded="true" signature="5357:5461" ph="INSERT into restrurantcomnents... " />
+            <marker date="1492714346901" expanded="true" signature="5985:6077" ph="select id, n... restrurants" />
+            <marker date="1492714346901" expanded="true" signature="5985:6083" ph="select id, n... restrurants" />
+            <marker date="1492714346901" expanded="true" signature="6256:6281" ph="select * fro... restrurants" />
+            <marker date="1492714346901" expanded="true" signature="7251:7355" ph="INSERT into restrurantcomments... " />
+            <marker date="1492714346901" expanded="true" signature="7955:8041" ph="INSERT INTO followship... " />
+            <marker date="1492714346901" expanded="true" signature="8480:8522" ph="SELECT follo... " />
+            <marker date="1492714346901" expanded="true" signature="8480:8559" ph="SELECT follo... followship" />
+            <marker date="1492714346901" expanded="true" signature="9152:9222" ph="SELECT * fro... followship" />
+            <marker date="1492714346901" expanded="true" signature="9890:9922" ph="SELECT users... users" />
+            <marker date="1492714346901" expanded="true" signature="9890:10307" ph="SELECT users... users" />
           </folding>
         </state>
       </provider>
@@ -1316,9 +1531,12 @@
         <state relative-caret-position="1809">
           <caret line="67" column="0" lean-forward="false" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1845#1846#0" expanded="true" />
-            <element signature="e#1887#1888#0" expanded="true" />
+            <element signature="method#main#0;class#UI#0" expanded="false" />
+            <element signature="method#UIbody#0;class#UI#0" expanded="false" />
+            <element signature="method#login#0;class#UI#0" expanded="false" />
+            <element signature="method#findUser#0;class#UI#0" expanded="false" />
+            <element signature="method#register#0;class#UI#0" expanded="false" />
+            <element signature="method#delete#0;class#UI#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1328,26 +1546,40 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#683#684#0" expanded="true" />
-            <element signature="e#725#726#0" expanded="true" />
-            <marker date="1492647275178" expanded="true" signature="1065:1167" ph="insert into users... " />
-            <marker date="1492647275178" expanded="true" signature="1065:1193" ph="insert into users... " />
-            <marker date="1492647275178" expanded="true" signature="2086:2149" ph="select from users... " />
-            <marker date="1492647275178" expanded="true" signature="2749:2768" ph="select from users... " />
-            <marker date="1492647275178" expanded="true" signature="2749:2812" ph="select from users... " />
-            <marker date="1492647275178" expanded="true" signature="3420:3484" ph="select id fr... users" />
-            <marker date="1492647275178" expanded="true" signature="4053:4072" ph="select * fro... users" />
-            <marker date="1492647275178" expanded="true" signature="4741:4845" ph="INSERT into restrurantcomnents... " />
-            <marker date="1492647275178" expanded="true" signature="5369:5461" ph="select id, n... restrurants" />
-            <marker date="1492647275178" expanded="true" signature="5369:5467" ph="select id, n... restrurants" />
-            <marker date="1492647275178" expanded="true" signature="5640:5665" ph="select * fro... restrurants" />
-            <marker date="1492647275178" expanded="true" signature="6635:6739" ph="INSERT into restrurantcomments... " />
-            <marker date="1492647275178" expanded="true" signature="7339:7425" ph="INSERT INTO followship... " />
-            <marker date="1492647275178" expanded="true" signature="7864:7906" ph="SELECT follo... " />
-            <marker date="1492647275178" expanded="true" signature="7864:7943" ph="SELECT follo... followship" />
-            <marker date="1492647275178" expanded="true" signature="8536:8606" ph="SELECT * fro... followship" />
-            <marker date="1492647275178" expanded="true" signature="9274:9306" ph="SELECT users... users" />
-            <marker date="1492647275178" expanded="true" signature="9274:9691" ph="SELECT users... users" />
+            <element signature="method#UserRepository#0;class#UserRepository#0" expanded="false" />
+            <element signature="method#save#0;class#UserRepository#0" expanded="false" />
+            <element signature="method#findbyUsername#0;class#UserRepository#0" expanded="false" />
+            <element signature="method#findbyUserId#0;class#UserRepository#0" expanded="false" />
+            <element signature="method#findbyLogin#0;class#UserRepository#0" expanded="false" />
+            <element signature="method#getUserId#0;class#UserRepository#0" expanded="false" />
+            <element signature="method#browseAllInfo#0;class#UserRepository#0" expanded="false" />
+            <element signature="method#addRestrurantComment#0;class#UserRepository#0" expanded="false" />
+            <element signature="method#searchForRestrurants#0;class#UserRepository#0" expanded="false" />
+            <element signature="method#saveRestrurantComments#0;class#UserRepository#0" expanded="false" />
+            <element signature="method#follow#0;class#UserRepository#0" expanded="false" />
+            <element signature="method#findFollowship#0;class#UserRepository#0" expanded="false" />
+            <element signature="method#browseFollowings#0;class#UserRepository#0" expanded="false" />
+            <element signature="method#watchOneFollowingComments_AllRestrurants#0;class#UserRepository#0" expanded="false" />
+            <element signature="method#watchAllFollowingComments_AllRestrurants#0;class#UserRepository#0" expanded="false" />
+            <marker date="1492714346901" expanded="true" signature="1065:1167" ph="insert into users... " />
+            <marker date="1492714346901" expanded="true" signature="1065:1193" ph="insert into users... " />
+            <marker date="1492714346901" expanded="true" signature="2086:2149" ph="select from users... " />
+            <marker date="1492714346901" expanded="true" signature="2728:2785" ph="select * fro... users" />
+            <marker date="1492714346901" expanded="true" signature="3365:3384" ph="select from users... " />
+            <marker date="1492714346901" expanded="true" signature="3365:3428" ph="select from users... " />
+            <marker date="1492714346901" expanded="true" signature="4036:4100" ph="select id fr... users" />
+            <marker date="1492714346901" expanded="true" signature="4669:4688" ph="select * fro... users" />
+            <marker date="1492714346901" expanded="true" signature="5357:5461" ph="INSERT into restrurantcomnents... " />
+            <marker date="1492714346901" expanded="true" signature="5985:6077" ph="select id, n... restrurants" />
+            <marker date="1492714346901" expanded="true" signature="5985:6083" ph="select id, n... restrurants" />
+            <marker date="1492714346901" expanded="true" signature="6256:6281" ph="select * fro... restrurants" />
+            <marker date="1492714346901" expanded="true" signature="7251:7355" ph="INSERT into restrurantcomments... " />
+            <marker date="1492714346901" expanded="true" signature="7955:8041" ph="INSERT INTO followship... " />
+            <marker date="1492714346901" expanded="true" signature="8480:8522" ph="SELECT follo... " />
+            <marker date="1492714346901" expanded="true" signature="8480:8559" ph="SELECT follo... followship" />
+            <marker date="1492714346901" expanded="true" signature="9152:9222" ph="SELECT * fro... followship" />
+            <marker date="1492714346901" expanded="true" signature="9890:9922" ph="SELECT users... users" />
+            <marker date="1492714346901" expanded="true" signature="9890:10307" ph="SELECT users... users" />
           </folding>
         </state>
       </provider>
@@ -1357,9 +1589,12 @@
         <state relative-caret-position="135">
           <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1845#1846#0" expanded="true" />
-            <element signature="e#1887#1888#0" expanded="true" />
+            <element signature="method#main#0;class#UI#0" expanded="false" />
+            <element signature="method#UIbody#0;class#UI#0" expanded="false" />
+            <element signature="method#login#0;class#UI#0" expanded="false" />
+            <element signature="method#findUser#0;class#UI#0" expanded="false" />
+            <element signature="method#register#0;class#UI#0" expanded="false" />
+            <element signature="method#delete#0;class#UI#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1375,14 +1610,14 @@
     <entry file="file://$PROJECT_DIR$/src/Model/Users.java" />
     <entry file="file://$PROJECT_DIR$/src/Controller.java" />
     <entry file="dbDummy://dbtable:/603bee9c/d3881873-bed5-4844-808c-3686fb33ba08/yelp.users">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
       <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
@@ -1410,14 +1645,14 @@
       </provider>
     </entry>
     <entry file="dbDummy://dbtable:/603bee9c/d3881873-bed5-4844-808c-3686fb33ba08/yelp.comments">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
       <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
@@ -1429,106 +1664,143 @@
       </provider>
     </entry>
     <entry file="dbDummy://dbtable:/603bee9c/d3881873-bed5-4844-808c-3686fb33ba08/yelp.restrurants">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
       <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Model/User.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="766">
+        <state relative-caret-position="918">
           <caret line="52" column="28" lean-forward="false" selection-start-line="52" selection-start-column="28" selection-end-line="52" selection-end-column="28" />
           <folding>
-            <element signature="e#1043#1044#0" expanded="true" />
-            <element signature="e#1078#1079#0" expanded="true" />
+            <element signature="e#325#326#0" expanded="false" />
+            <element signature="e#365#366#0" expanded="false" />
+            <element signature="e#400#401#0" expanded="false" />
+            <element signature="e#431#432#0" expanded="false" />
+            <element signature="e#481#482#0" expanded="false" />
+            <element signature="e#523#524#0" expanded="false" />
+            <element signature="e#559#560#0" expanded="false" />
+            <element signature="e#591#592#0" expanded="false" />
+            <element signature="e#640#641#0" expanded="false" />
+            <element signature="e#680#681#0" expanded="false" />
+            <element signature="e#715#716#0" expanded="false" />
+            <element signature="e#746#747#0" expanded="false" />
+            <element signature="e#794#795#0" expanded="false" />
+            <element signature="e#834#835#0" expanded="false" />
+            <element signature="e#869#870#0" expanded="false" />
+            <element signature="e#900#901#0" expanded="false" />
+            <element signature="e#956#957#0" expanded="false" />
+            <element signature="e#1004#1005#0" expanded="false" />
+            <element signature="e#1128#1129#0" expanded="false" />
+            <element signature="e#1170#1171#0" expanded="false" />
+            <element signature="e#1206#1207#0" expanded="false" />
+            <element signature="e#1238#1239#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/603bee9c/d3881873-bed5-4844-808c-3686fb33ba08/yelp.restrurantcomments">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/d3881873-bed5-4844-808c-3686fb33ba08/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/UI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="727">
+          <caret line="118" column="30" lean-forward="false" selection-start-line="118" selection-start-column="30" selection-end-line="118" selection-end-column="30" />
+          <folding>
+            <element signature="method#main#0;class#UI#0" expanded="false" />
+            <element signature="method#UIbody#0;class#UI#0" expanded="false" />
+            <element signature="method#login#0;class#UI#0" expanded="false" />
+            <element signature="method#findUser#0;class#UI#0" expanded="false" />
+            <element signature="method#register#0;class#UI#0" expanded="false" />
+            <element signature="method#delete#0;class#UI#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Repository/UserRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="205" column="0" lean-forward="false" selection-start-line="205" selection-start-column="0" selection-end-line="205" selection-end-column="0" />
+          <folding>
+            <element signature="method#UserRepository#0;class#UserRepository#0" expanded="false" />
+            <element signature="method#save#0;class#UserRepository#0" expanded="false" />
+            <element signature="method#findbyUsername#0;class#UserRepository#0" expanded="false" />
+            <element signature="method#findbyUserId#0;class#UserRepository#0" expanded="false" />
+            <element signature="method#findbyLogin#0;class#UserRepository#0" expanded="false" />
+            <element signature="method#getUserId#0;class#UserRepository#0" expanded="false" />
+            <element signature="method#browseAllInfo#0;class#UserRepository#0" expanded="false" />
+            <element signature="method#addRestrurantComment#0;class#UserRepository#0" expanded="false" />
+            <element signature="method#searchForRestrurants#0;class#UserRepository#0" expanded="false" />
+            <element signature="method#saveRestrurantComments#0;class#UserRepository#0" expanded="false" />
+            <element signature="method#follow#0;class#UserRepository#0" expanded="false" />
+            <element signature="method#findFollowship#0;class#UserRepository#0" expanded="false" />
+            <element signature="method#browseFollowings#0;class#UserRepository#0" expanded="false" />
+            <element signature="method#watchOneFollowingComments_AllRestrurants#0;class#UserRepository#0" expanded="false" />
+            <element signature="method#watchAllFollowingComments_AllRestrurants#0;class#UserRepository#0" expanded="false" />
+            <marker date="1492714346901" expanded="true" signature="1065:1167" ph="insert into users... " />
+            <marker date="1492714346901" expanded="true" signature="1065:1193" ph="insert into users... " />
+            <marker date="1492714346901" expanded="true" signature="2086:2149" ph="select from users... " />
+            <marker date="1492714346901" expanded="true" signature="2728:2785" ph="select * fro... users" />
+            <marker date="1492714346901" expanded="true" signature="3365:3384" ph="select from users... " />
+            <marker date="1492714346901" expanded="true" signature="3365:3428" ph="select from users... " />
+            <marker date="1492714346901" expanded="true" signature="4036:4100" ph="select id fr... users" />
+            <marker date="1492714346901" expanded="true" signature="4669:4688" ph="select * fro... users" />
+            <marker date="1492714346901" expanded="true" signature="5357:5461" ph="INSERT into restrurantcomnents... " />
+            <marker date="1492714346901" expanded="true" signature="5985:6077" ph="select id, n... restrurants" />
+            <marker date="1492714346901" expanded="true" signature="5985:6083" ph="select id, n... restrurants" />
+            <marker date="1492714346901" expanded="true" signature="6256:6281" ph="select * fro... restrurants" />
+            <marker date="1492714346901" expanded="true" signature="7251:7355" ph="INSERT into restrurantcomments... " />
+            <marker date="1492714346901" expanded="true" signature="7955:8041" ph="INSERT INTO followship... " />
+            <marker date="1492714346901" expanded="true" signature="8480:8522" ph="SELECT follo... " />
+            <marker date="1492714346901" expanded="true" signature="8480:8559" ph="SELECT follo... followship" />
+            <marker date="1492714346901" expanded="true" signature="9152:9222" ph="SELECT * fro... followship" />
+            <marker date="1492714346901" expanded="true" signature="9890:9922" ph="SELECT users... users" />
+            <marker date="1492714346901" expanded="true" signature="9890:10307" ph="SELECT users... users" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Repository/AdminRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
-          <caret line="35" column="37" lean-forward="false" selection-start-line="35" selection-start-column="37" selection-end-line="35" selection-end-column="37" />
+        <state relative-caret-position="486">
+          <caret line="49" column="48" lean-forward="false" selection-start-line="49" selection-start-column="48" selection-end-line="49" selection-end-column="48" />
           <folding>
-            <marker date="1492625623247" expanded="true" signature="592:678" ph="insert into restrurants... " />
-            <marker date="1492625623247" expanded="true" signature="592:679" ph="insert into restrurants... " />
-            <marker date="1492625623247" expanded="true" signature="1202:1263" ph="insert into food... " />
-            <marker date="1492625623247" expanded="true" signature="1202:1276" ph="insert into food... " />
-            <marker date="1492625623247" expanded="true" signature="1666:1685" ph="select * fro... users" />
-            <marker date="1492625623247" expanded="true" signature="2320:2345" ph="select * fro... Restrurants" />
-            <marker date="1492625623247" expanded="true" signature="3047:3099" ph="select * fro... food" />
-            <marker date="1492625623247" expanded="true" signature="3047:3113" ph="select * fro... food" />
-            <marker date="1492625623247" expanded="true" signature="3730:3929" ph="select restr... restrurantComment" />
-            <marker date="1492625623247" expanded="true" signature="3730:4020" ph="select restr... restrurantComment" />
-            <marker date="1492625623247" expanded="true" signature="4774:4815" ph="delete from " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/603bee9c/d3881873-bed5-4844-808c-3686fb33ba08/yelp.restrurantcomments">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/d3881873-bed5-4844-808c-3686fb33ba08/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="10" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="6" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Repository/UserRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="18" column="35" lean-forward="false" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
-          <folding>
-            <element signature="e#683#684#0" expanded="true" />
-            <element signature="e#725#726#0" expanded="true" />
-            <marker date="1492647275178" expanded="true" signature="1065:1167" ph="insert into users... " />
-            <marker date="1492647275178" expanded="true" signature="1065:1193" ph="insert into users... " />
-            <marker date="1492647275178" expanded="true" signature="2086:2149" ph="select from users... " />
-            <marker date="1492647275178" expanded="true" signature="2749:2768" ph="select from users... " />
-            <marker date="1492647275178" expanded="true" signature="2749:2812" ph="select from users... " />
-            <marker date="1492647275178" expanded="true" signature="3420:3484" ph="select id fr... users" />
-            <marker date="1492647275178" expanded="true" signature="4053:4072" ph="select * fro... users" />
-            <marker date="1492647275178" expanded="true" signature="4741:4845" ph="INSERT into restrurantcomnents... " />
-            <marker date="1492647275178" expanded="true" signature="5369:5461" ph="select id, n... restrurants" />
-            <marker date="1492647275178" expanded="true" signature="5369:5467" ph="select id, n... restrurants" />
-            <marker date="1492647275178" expanded="true" signature="5640:5665" ph="select * fro... restrurants" />
-            <marker date="1492647275178" expanded="true" signature="6635:6739" ph="INSERT into restrurantcomments... " />
-            <marker date="1492647275178" expanded="true" signature="7339:7425" ph="INSERT INTO followship... " />
-            <marker date="1492647275178" expanded="true" signature="7864:7906" ph="SELECT follo... " />
-            <marker date="1492647275178" expanded="true" signature="7864:7943" ph="SELECT follo... followship" />
-            <marker date="1492647275178" expanded="true" signature="8536:8606" ph="SELECT * fro... followship" />
-            <marker date="1492647275178" expanded="true" signature="9274:9306" ph="SELECT users... users" />
-            <marker date="1492647275178" expanded="true" signature="9274:9691" ph="SELECT users... users" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/UI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="15" column="20" lean-forward="false" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1845#1846#0" expanded="true" />
-            <element signature="e#1887#1888#0" expanded="true" />
+            <marker date="1492714654072" expanded="true" signature="592:678" ph="insert into restrurants... " />
+            <marker date="1492714654072" expanded="true" signature="592:679" ph="insert into restrurants... " />
+            <marker date="1492714654072" expanded="true" signature="1202:1263" ph="insert into food... " />
+            <marker date="1492714654072" expanded="true" signature="1202:1276" ph="insert into food... " />
+            <marker date="1492714654072" expanded="true" signature="1718:1737" ph="select * fro... users" />
+            <marker date="1492714654072" expanded="true" signature="2366:2391" ph="select * fro... Restrurants" />
+            <marker date="1492714654072" expanded="true" signature="3093:3145" ph="select * fro... food" />
+            <marker date="1492714654072" expanded="true" signature="3093:3159" ph="select * fro... food" />
+            <marker date="1492714654072" expanded="true" signature="3776:3975" ph="select restr... restrurantComment" />
+            <marker date="1492714654072" expanded="true" signature="3776:4066" ph="select restr... restrurantComment" />
+            <marker date="1492714654072" expanded="true" signature="4820:4861" ph="delete from " />
           </folding>
         </state>
       </provider>

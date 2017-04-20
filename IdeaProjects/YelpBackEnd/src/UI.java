@@ -1,3 +1,4 @@
+import Model.Food;
 import Model.Restrurant;
 import Model.RestrurantComment;
 import Model.User;
@@ -74,6 +75,7 @@ public class UI {
         println("Admin Interface -- Please select your action -------------");
         print("(1) Exit");
         print("(2) Add Restrurant");
+        print("(3) Add food");
         print("(11) Browse all user Information");
         println("(12) Browse all restrurant Info");
         print("(13) Browse all food info");
@@ -90,7 +92,7 @@ public class UI {
 
         if (action == 2) {
             Restrurant restrurant = new Restrurant();
-            println("--------restrurant add page-------");
+            println(">>>>>>>>>>>>>>>>> restrurant add page >>>>>>>>>>>>>>>>>>>");
             sc.nextLine();
             print1("Type restrurant name:\t");
             String name = sc.nextLine();
@@ -102,6 +104,19 @@ public class UI {
             restrurant.setAddress(address);
             restrurant.setType(type);
             ad.saveRestrurant(restrurant);
+        }
+
+        if (action == 3) {
+            Food food = new Food();
+            println(">>>>>>>>>>>>>>>>> food add page >>>>>>>>>>>>>>>>>>>");
+            sc.nextLine();
+            print1("Type food name:\t");
+            String name = sc.next();
+            print1("Enter restrurant Id here:\t");
+            int resId = sc.nextInt();
+            food.setFoodName(name);
+            food.setRestrurantId(resId);
+            ad.saveFood(food);
         }
 
         if (action == 11){
@@ -246,6 +261,10 @@ public class UI {
                     case 3:
                         printt("Enter followee's ID:\t");
                         int followeeId = sc.nextInt();
+                        if (!ur.findbyUserId(followeeId)) {
+                            println("user doesn't exist");
+                            break;
+                        }
                         int followerId = ur.getUserId(username);
                         int val = ur.follow(followerId, followeeId);
                         if (val == -1) {
@@ -265,6 +284,7 @@ public class UI {
                         printt("Enter a following's Id: ");
                         int followingId = sc.nextInt();
                         ur.watchOneFollowingComments_AllRestrurants(thisId, followingId);
+                        break;
                     case 11:
                         printt("enter a segment of the restrurant name (* for all):\t");
                         String seg = sc.next();

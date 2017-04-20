@@ -80,6 +80,25 @@ public class UserRepository {
         return false;
     }
 
+    public boolean findbyUserId(int userId) {
+        try {
+            PreparedStatement preparedStatement = conn.prepareStatement("select * from users" +
+                    " where id = ?");
+            preparedStatement.setInt(1, userId);
+            ResultSet resultSet = preparedStatement.executeQuery();
+            if (resultSet != null) {
+                if (resultSet.next()) {
+                    return true;
+                } else {
+                    return false;
+                }
+            }
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        return false;
+    }
+
     public boolean findbyLogin(String username, String password) {
         try {
             PreparedStatement preparedStatement = conn.prepareStatement("select * from users" +

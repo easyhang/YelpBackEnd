@@ -47,6 +47,7 @@ public class AdminRepository {
             preparedStatement.setInt(2, food.getRestrurantId());
 
             preparedStatement.executeUpdate();
+            println("Food record save successful");
         } catch (Exception e) {
             e.printStackTrace();
         }
@@ -60,10 +61,10 @@ public class AdminRepository {
             while (resultSet.next()) {
                 int id = resultSet.getInt("id");
                 String username = resultSet.getString("username");
-//                String password = resultSet.getString("password");
+                String password = resultSet.getString("password");
                 print(String.valueOf(id));
-                println(username);
-//                println(password);
+                print(username);
+                println(password);
 
             }
 
